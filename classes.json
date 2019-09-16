@@ -1,0 +1,1864 @@
+{
+    "PHYS 100": {
+        "John F. Zasadzinski": {
+            "10063": {
+                "name": "Intro to the Profession",
+                "crn": "10063",
+                "course": "PHYS 100",
+                "section": "01",
+                "link": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202010&crn_in=10063",
+                "term": "Fall 2019",
+                "registration": "Apr 08, 2019 to Aug 31, 2019",
+                "levels": "Undergraduate",
+                "attributes": "Communications Requirement, Standard Tuition Rate",
+                "campus": "Mies Campus",
+                "type": "Lecture",
+                "instructional_method": "Traditional Instructional Method",
+                "credits": 2,
+                "catalog": "https://ssb.iit.edu/bnrprd/bwckctlg.p_display_courses?term_in=202010&one_subj=PHYS&sel_crse_strt=100&sel_crse_end=100&sel_subj=&sel_levl=&sel_schd=&sel_coll=&sel_divs=&sel_dept=&sel_attr=",
+                "instructors": [
+                    "John F. Zasadzinski"
+                ],
+                "dateRange": "Aug 19, 2019 - Dec 07, 2019",
+                "classes": {
+                    "T": {
+                        "start": 915,
+                        "end": 965,
+                        "location": "Perlstein Hall 109"
+                    },
+                    "F": {
+                        "start": 765,
+                        "end": 815,
+                        "location": "Robert A. Pritzker Science Ctr 240"
+                    }
+                }
+            }
+        }
+    },
+    "PHYS 120": {
+        "David Gidalevitz": {
+            "11679": {
+                "name": "Astronomy",
+                "crn": "11679",
+                "course": "PHYS 120",
+                "section": "01",
+                "link": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202010&crn_in=11679",
+                "term": "Fall 2019",
+                "registration": "Apr 08, 2019 to Aug 31, 2019",
+                "levels": "Undergraduate",
+                "attributes": "Standard Tuition Rate",
+                "campus": "Mies Campus",
+                "type": "Lecture",
+                "instructional_method": "Traditional Instructional Method",
+                "credits": 3,
+                "catalog": "https://ssb.iit.edu/bnrprd/bwckctlg.p_display_courses?term_in=202010&one_subj=PHYS&sel_crse_strt=120&sel_crse_end=120&sel_subj=&sel_levl=&sel_schd=&sel_coll=&sel_divs=&sel_dept=&sel_attr=",
+                "instructors": [
+                    "David Gidalevitz"
+                ],
+                "dateRange": "Aug 19, 2019 - Dec 07, 2019",
+                "classes": {
+                    "M": {
+                        "start": 600,
+                        "end": 675,
+                        "location": "Robert A. Pritzker Science Ctr 240"
+                    },
+                    "W": {
+                        "start": 600,
+                        "end": 675,
+                        "location": "Robert A. Pritzker Science Ctr 240"
+                    }
+                }
+            }
+        }
+    },
+    "PHYS 123": {
+        "Pavel Snopok": {
+            "10064": {
+                "name": "General Physics I:  Mechanics",
+                "crn": "10064",
+                "course": "PHYS 123",
+                "section": "01",
+                "link": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202010&crn_in=10064",
+                "term": "Fall 2019",
+                "registration": "Apr 08, 2019 to Aug 31, 2019",
+                "levels": "Undergraduate",
+                "attributes": "Communications Requirement, Lab Safety Instruction, Standard Tuition Rate",
+                "campus": "Mies Campus",
+                "type": "Lecture",
+                "instructional_method": "Traditional Instructional Method",
+                "credits": 4,
+                "catalog": "https://ssb.iit.edu/bnrprd/bwckctlg.p_display_courses?term_in=202010&one_subj=PHYS&sel_crse_strt=123&sel_crse_end=123&sel_subj=&sel_levl=&sel_schd=&sel_coll=&sel_divs=&sel_dept=&sel_attr=",
+                "instructors": [
+                    "Pavel Snopok"
+                ],
+                "dateRange": "Aug 19, 2019 - Dec 07, 2019",
+                "classes": {
+                    "T": {
+                        "start": 600,
+                        "end": 675,
+                        "location": "Robert A. Pritzker Science Ctr 129"
+                    },
+                    "R": {
+                        "start": 600,
+                        "end": 675,
+                        "location": "Robert A. Pritzker Science Ctr 129"
+                    }
+                }
+            },
+            "10065": {
+                "name": "Laboratory",
+                "crn": "10065",
+                "course": "PHYS 123",
+                "section": "L01",
+                "link": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202010&crn_in=10065",
+                "term": "Fall 2019",
+                "registration": "Apr 08, 2019 to Aug 31, 2019",
+                "levels": "Undergraduate",
+                "attributes": "Communications Requirement, Lab Safety Instruction, Standard Tuition Rate",
+                "campus": "Mies Campus",
+                "type": "Lab",
+                "instructional_method": "Traditional Instructional Method",
+                "credits": 0,
+                "catalog": "https://ssb.iit.edu/bnrprd/bwckctlg.p_display_courses?term_in=202010&one_subj=PHYS&sel_crse_strt=123&sel_crse_end=123&sel_subj=&sel_levl=&sel_schd=&sel_coll=&sel_divs=&sel_dept=&sel_attr=",
+                "instructors": [
+                    "Pavel Snopok"
+                ],
+                "dateRange": "Aug 19, 2019 - Dec 07, 2019",
+                "classes": {
+                    "T": {
+                        "start": 1190,
+                        "end": 1265,
+                        "location": "Robert A. Pritzker Science Ctr 265B"
+                    }
+                }
+            },
+            "10066": {
+                "name": "Laboratory",
+                "crn": "10066",
+                "course": "PHYS 123",
+                "section": "L02",
+                "link": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202010&crn_in=10066",
+                "term": "Fall 2019",
+                "registration": "Apr 08, 2019 to Aug 31, 2019",
+                "levels": "Undergraduate",
+                "attributes": "Communications Requirement, Lab Safety Instruction, Standard Tuition Rate",
+                "campus": "Mies Campus",
+                "type": "Lab",
+                "instructional_method": "Traditional Instructional Method",
+                "credits": 0,
+                "catalog": "https://ssb.iit.edu/bnrprd/bwckctlg.p_display_courses?term_in=202010&one_subj=PHYS&sel_crse_strt=123&sel_crse_end=123&sel_subj=&sel_levl=&sel_schd=&sel_coll=&sel_divs=&sel_dept=&sel_attr=",
+                "instructors": [
+                    "Pavel Snopok"
+                ],
+                "dateRange": "Aug 19, 2019 - Dec 07, 2019",
+                "classes": {
+                    "W": {
+                        "start": 915,
+                        "end": 990,
+                        "location": "Robert A. Pritzker Science Ctr 265B"
+                    }
+                }
+            }
+        },
+        "Zack Sullivan": {
+            "10067": {
+                "name": "General Physics I:  Mechanics",
+                "crn": "10067",
+                "course": "PHYS 123",
+                "section": "02",
+                "link": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202010&crn_in=10067",
+                "term": "Fall 2019",
+                "registration": "Apr 08, 2019 to Aug 31, 2019",
+                "levels": "Undergraduate",
+                "attributes": "Communications Requirement, Lab Safety Instruction, Standard Tuition Rate",
+                "campus": "Mies Campus",
+                "type": "Lecture",
+                "instructional_method": "Traditional Instructional Method",
+                "credits": 4,
+                "catalog": "https://ssb.iit.edu/bnrprd/bwckctlg.p_display_courses?term_in=202010&one_subj=PHYS&sel_crse_strt=123&sel_crse_end=123&sel_subj=&sel_levl=&sel_schd=&sel_coll=&sel_divs=&sel_dept=&sel_attr=",
+                "instructors": [
+                    "Zack Sullivan"
+                ],
+                "dateRange": "Aug 19, 2019 - Dec 07, 2019",
+                "classes": {
+                    "T": {
+                        "start": 830,
+                        "end": 905,
+                        "location": "Robert A. Pritzker Science Ctr 129"
+                    },
+                    "R": {
+                        "start": 830,
+                        "end": 905,
+                        "location": "Robert A. Pritzker Science Ctr 129"
+                    }
+                }
+            },
+            "11201": {
+                "name": "Laboratory",
+                "crn": "11201",
+                "course": "PHYS 123",
+                "section": "L03",
+                "link": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202010&crn_in=11201",
+                "term": "Fall 2019",
+                "registration": "Apr 08, 2019 to Aug 31, 2019",
+                "levels": "Undergraduate",
+                "attributes": "Communications Requirement, Lab Safety Instruction, Standard Tuition Rate",
+                "campus": "Mies Campus",
+                "type": "Lab",
+                "instructional_method": "Traditional Instructional Method",
+                "credits": 0,
+                "catalog": "https://ssb.iit.edu/bnrprd/bwckctlg.p_display_courses?term_in=202010&one_subj=PHYS&sel_crse_strt=123&sel_crse_end=123&sel_subj=&sel_levl=&sel_schd=&sel_coll=&sel_divs=&sel_dept=&sel_attr=",
+                "instructors": [
+                    "Zack Sullivan"
+                ],
+                "dateRange": "Aug 19, 2019 - Dec 07, 2019",
+                "classes": {
+                    "W": {
+                        "start": 1190,
+                        "end": 1265,
+                        "location": "Robert A. Pritzker Science Ctr 265B"
+                    }
+                }
+            },
+            "11202": {
+                "name": "Laboratory",
+                "crn": "11202",
+                "course": "PHYS 123",
+                "section": "L04",
+                "link": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202010&crn_in=11202",
+                "term": "Fall 2019",
+                "registration": "Apr 08, 2019 to Aug 31, 2019",
+                "levels": "Undergraduate",
+                "attributes": "Communications Requirement, Lab Safety Instruction, Standard Tuition Rate",
+                "campus": "Mies Campus",
+                "type": "Lab",
+                "instructional_method": "Traditional Instructional Method",
+                "credits": 0,
+                "catalog": "https://ssb.iit.edu/bnrprd/bwckctlg.p_display_courses?term_in=202010&one_subj=PHYS&sel_crse_strt=123&sel_crse_end=123&sel_subj=&sel_levl=&sel_schd=&sel_coll=&sel_divs=&sel_dept=&sel_attr=",
+                "instructors": [
+                    "Zack Sullivan"
+                ],
+                "dateRange": "Aug 19, 2019 - Dec 07, 2019",
+                "classes": {
+                    "R": {
+                        "start": 1190,
+                        "end": 1265,
+                        "location": "Robert A. Pritzker Science Ctr 265B"
+                    }
+                }
+            }
+        },
+        "David Gidalevitz": {
+            "11680": {
+                "name": "General Physics I:  Mechanics",
+                "crn": "11680",
+                "course": "PHYS 123",
+                "section": "03",
+                "link": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202010&crn_in=11680",
+                "term": "Fall 2019",
+                "registration": "Apr 08, 2019 to Aug 31, 2019",
+                "levels": "Undergraduate",
+                "attributes": "Communications Requirement, Lab Safety Instruction, Standard Tuition Rate",
+                "campus": "Mies Campus",
+                "type": "Lecture",
+                "instructional_method": "Traditional Instructional Method",
+                "credits": 4,
+                "catalog": "https://ssb.iit.edu/bnrprd/bwckctlg.p_display_courses?term_in=202010&one_subj=PHYS&sel_crse_strt=123&sel_crse_end=123&sel_subj=&sel_levl=&sel_schd=&sel_coll=&sel_divs=&sel_dept=&sel_attr=",
+                "instructors": [
+                    "David Gidalevitz"
+                ],
+                "dateRange": "Aug 19, 2019 - Dec 07, 2019",
+                "classes": {
+                    "M": {
+                        "start": 515,
+                        "end": 590,
+                        "location": "Robert A. Pritzker Science Ctr 240"
+                    },
+                    "W": {
+                        "start": 515,
+                        "end": 590,
+                        "location": "Robert A. Pritzker Science Ctr 240"
+                    }
+                }
+            },
+            "11681": {
+                "name": "Laboratory",
+                "crn": "11681",
+                "course": "PHYS 123",
+                "section": "L05",
+                "link": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202010&crn_in=11681",
+                "term": "Fall 2019",
+                "registration": "Apr 08, 2019 to Aug 31, 2019",
+                "levels": "Undergraduate",
+                "attributes": "Communications Requirement, Lab Safety Instruction, Standard Tuition Rate",
+                "campus": "Mies Campus",
+                "type": "Lab",
+                "instructional_method": "Traditional Instructional Method",
+                "credits": 0,
+                "catalog": "https://ssb.iit.edu/bnrprd/bwckctlg.p_display_courses?term_in=202010&one_subj=PHYS&sel_crse_strt=123&sel_crse_end=123&sel_subj=&sel_levl=&sel_schd=&sel_coll=&sel_divs=&sel_dept=&sel_attr=",
+                "instructors": [
+                    "David Gidalevitz"
+                ],
+                "dateRange": "Aug 19, 2019 - Dec 07, 2019",
+                "classes": {
+                    "T": {
+                        "start": 915,
+                        "end": 990,
+                        "location": "Robert A. Pritzker Science Ctr 265B"
+                    }
+                }
+            },
+            "11682": {
+                "name": "Laboratory",
+                "crn": "11682",
+                "course": "PHYS 123",
+                "section": "L06",
+                "link": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202010&crn_in=11682",
+                "term": "Fall 2019",
+                "registration": "Apr 08, 2019 to Aug 31, 2019",
+                "levels": "Undergraduate",
+                "attributes": "Communications Requirement, Lab Safety Instruction, Standard Tuition Rate",
+                "campus": "Mies Campus",
+                "type": "Lab",
+                "instructional_method": "Traditional Instructional Method",
+                "credits": 0,
+                "catalog": "https://ssb.iit.edu/bnrprd/bwckctlg.p_display_courses?term_in=202010&one_subj=PHYS&sel_crse_strt=123&sel_crse_end=123&sel_subj=&sel_levl=&sel_schd=&sel_coll=&sel_divs=&sel_dept=&sel_attr=",
+                "instructors": [
+                    "David Gidalevitz"
+                ],
+                "dateRange": "Aug 19, 2019 - Dec 07, 2019",
+                "classes": {
+                    "R": {
+                        "start": 915,
+                        "end": 990,
+                        "location": "Robert A. Pritzker Science Ctr 265B"
+                    }
+                }
+            }
+        }
+    },
+    "PHYS 200": {
+        "Sally Laurent": {
+            "10068": {
+                "name": "Introduction to Energy, Waves Materials &amp; Forces",
+                "crn": "10068",
+                "course": "PHYS 200",
+                "section": "01",
+                "link": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202010&crn_in=10068",
+                "term": "Fall 2019",
+                "registration": "Apr 08, 2019 to Aug 31, 2019",
+                "levels": "Undergraduate",
+                "attributes": "Natural Science or Engr Req., Standard Tuition Rate",
+                "campus": "Mies Campus",
+                "type": "Lecture",
+                "instructional_method": "Traditional Instructional Method",
+                "credits": 4,
+                "catalog": "https://ssb.iit.edu/bnrprd/bwckctlg.p_display_courses?term_in=202010&one_subj=PHYS&sel_crse_strt=200&sel_crse_end=200&sel_subj=&sel_levl=&sel_schd=&sel_coll=&sel_divs=&sel_dept=&sel_attr=",
+                "instructors": [
+                    "Sally Laurent"
+                ],
+                "dateRange": "Aug 19, 2019 - Dec 07, 2019",
+                "classes": {
+                    "T": {
+                        "start": 685,
+                        "end": 785,
+                        "location": "Perlstein Hall 131"
+                    },
+                    "R": {
+                        "start": 685,
+                        "end": 785,
+                        "location": "Perlstein Hall 131"
+                    }
+                }
+            }
+        }
+    },
+    "PHYS 221": {
+        "Jeffery Wereszczynski": {
+            "10069": {
+                "name": "Gen Physics II: Elect&amp;Magntism",
+                "crn": "10069",
+                "course": "PHYS 221",
+                "section": "01",
+                "link": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202010&crn_in=10069",
+                "term": "Fall 2019",
+                "registration": "Apr 08, 2019 to Aug 31, 2019",
+                "levels": "Undergraduate",
+                "attributes": "Communications Requirement, Lab Safety Instruction, Standard Tuition Rate",
+                "campus": "Mies Campus",
+                "type": "Lecture",
+                "instructional_method": "Traditional Instructional Method",
+                "credits": 4,
+                "catalog": "https://ssb.iit.edu/bnrprd/bwckctlg.p_display_courses?term_in=202010&one_subj=PHYS&sel_crse_strt=221&sel_crse_end=221&sel_subj=&sel_levl=&sel_schd=&sel_coll=&sel_divs=&sel_dept=&sel_attr=",
+                "instructors": [
+                    "Jeffery Wereszczynski"
+                ],
+                "dateRange": "Aug 19, 2019 - Dec 07, 2019",
+                "classes": {
+                    "T": {
+                        "start": 515,
+                        "end": 590,
+                        "location": "Robert A. Pritzker Science Ctr 121"
+                    },
+                    "R": {
+                        "start": 515,
+                        "end": 590,
+                        "location": "Robert A. Pritzker Science Ctr 121"
+                    }
+                }
+            },
+            "10070": {
+                "name": "Laboratory",
+                "crn": "10070",
+                "course": "PHYS 221",
+                "section": "L01",
+                "link": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202010&crn_in=10070",
+                "term": "Fall 2019",
+                "registration": "Apr 08, 2019 to Aug 31, 2019",
+                "levels": "Undergraduate",
+                "attributes": "Communications Requirement, Lab Safety Instruction, Standard Tuition Rate",
+                "campus": "Mies Campus",
+                "type": "Lab",
+                "instructional_method": "Traditional Instructional Method",
+                "credits": 0,
+                "catalog": "https://ssb.iit.edu/bnrprd/bwckctlg.p_display_courses?term_in=202010&one_subj=PHYS&sel_crse_strt=221&sel_crse_end=221&sel_subj=&sel_levl=&sel_schd=&sel_coll=&sel_divs=&sel_dept=&sel_attr=",
+                "instructors": [
+                    "Jeffery Wereszczynski"
+                ],
+                "dateRange": "Aug 19, 2019 - Dec 07, 2019",
+                "classes": {
+                    "F": {
+                        "start": 915,
+                        "end": 990,
+                        "location": "Robert A. Pritzker Science Ctr 265A"
+                    }
+                }
+            },
+            "10863": {
+                "name": "Laboratory",
+                "crn": "10863",
+                "course": "PHYS 221",
+                "section": "L02",
+                "link": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202010&crn_in=10863",
+                "term": "Fall 2019",
+                "registration": "Apr 08, 2019 to Aug 31, 2019",
+                "levels": "Undergraduate",
+                "attributes": "Communications Requirement, Lab Safety Instruction, Standard Tuition Rate",
+                "campus": "Mies Campus",
+                "type": "Lab",
+                "instructional_method": "Traditional Instructional Method",
+                "credits": 0,
+                "catalog": "https://ssb.iit.edu/bnrprd/bwckctlg.p_display_courses?term_in=202010&one_subj=PHYS&sel_crse_strt=221&sel_crse_end=221&sel_subj=&sel_levl=&sel_schd=&sel_coll=&sel_divs=&sel_dept=&sel_attr=",
+                "instructors": [
+                    "Jeffery Wereszczynski"
+                ],
+                "dateRange": "Aug 19, 2019 - Dec 07, 2019",
+                "classes": {
+                    "W": {
+                        "start": 600,
+                        "end": 675,
+                        "location": "Robert A. Pritzker Science Ctr 265A"
+                    }
+                }
+            }
+        },
+        "Leia Joanna Asimacopoulos": {
+            "10071": {
+                "name": "Gen Physics II: Elect&amp;Magntism",
+                "crn": "10071",
+                "course": "PHYS 221",
+                "section": "02",
+                "link": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202010&crn_in=10071",
+                "term": "Fall 2019",
+                "registration": "Apr 08, 2019 to Aug 31, 2019",
+                "levels": "Undergraduate",
+                "attributes": "Communications Requirement, Lab Safety Instruction, Standard Tuition Rate",
+                "campus": "Mies Campus",
+                "type": "Lecture",
+                "instructional_method": "Traditional Instructional Method",
+                "credits": 4,
+                "catalog": "https://ssb.iit.edu/bnrprd/bwckctlg.p_display_courses?term_in=202010&one_subj=PHYS&sel_crse_strt=221&sel_crse_end=221&sel_subj=&sel_levl=&sel_schd=&sel_coll=&sel_divs=&sel_dept=&sel_attr=",
+                "instructors": [
+                    "Leia Joanna Asimacopoulos"
+                ],
+                "dateRange": "Aug 19, 2019 - Dec 07, 2019",
+                "classes": {
+                    "T": {
+                        "start": 685,
+                        "end": 760,
+                        "location": "Robert A. Pritzker Science Ctr 129"
+                    },
+                    "R": {
+                        "start": 685,
+                        "end": 760,
+                        "location": "Robert A. Pritzker Science Ctr 129"
+                    }
+                }
+            },
+            "10072": {
+                "name": "Laboratory",
+                "crn": "10072",
+                "course": "PHYS 221",
+                "section": "L03",
+                "link": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202010&crn_in=10072",
+                "term": "Fall 2019",
+                "registration": "Apr 08, 2019 to Aug 31, 2019",
+                "levels": "Undergraduate",
+                "attributes": "Communications Requirement, Lab Safety Instruction, Standard Tuition Rate",
+                "campus": "Mies Campus",
+                "type": "Lab",
+                "instructional_method": "Traditional Instructional Method",
+                "credits": 0,
+                "catalog": "https://ssb.iit.edu/bnrprd/bwckctlg.p_display_courses?term_in=202010&one_subj=PHYS&sel_crse_strt=221&sel_crse_end=221&sel_subj=&sel_levl=&sel_schd=&sel_coll=&sel_divs=&sel_dept=&sel_attr=",
+                "instructors": [
+                    "Leia Joanna Asimacopoulos"
+                ],
+                "dateRange": "Aug 19, 2019 - Dec 07, 2019",
+                "classes": {
+                    "W": {
+                        "start": 1190,
+                        "end": 1265,
+                        "location": "Robert A. Pritzker Science Ctr 265A"
+                    }
+                }
+            },
+            "10073": {
+                "name": "Laboratory",
+                "crn": "10073",
+                "course": "PHYS 221",
+                "section": "L04",
+                "link": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202010&crn_in=10073",
+                "term": "Fall 2019",
+                "registration": "Apr 08, 2019 to Aug 31, 2019",
+                "levels": "Undergraduate",
+                "attributes": "Communications Requirement, Lab Safety Instruction, Standard Tuition Rate",
+                "campus": "Mies Campus",
+                "type": "Lab",
+                "instructional_method": "Traditional Instructional Method",
+                "credits": 0,
+                "catalog": "https://ssb.iit.edu/bnrprd/bwckctlg.p_display_courses?term_in=202010&one_subj=PHYS&sel_crse_strt=221&sel_crse_end=221&sel_subj=&sel_levl=&sel_schd=&sel_coll=&sel_divs=&sel_dept=&sel_attr=",
+                "instructors": [
+                    "Leia Joanna Asimacopoulos"
+                ],
+                "dateRange": "Aug 19, 2019 - Dec 07, 2019",
+                "classes": {
+                    "R": {
+                        "start": 1190,
+                        "end": 1265,
+                        "location": "Robert A. Pritzker Science Ctr 265A"
+                    }
+                }
+            },
+            "10074": {
+                "name": "Gen Physics II: Elect&amp;Magntism",
+                "crn": "10074",
+                "course": "PHYS 221",
+                "section": "03",
+                "link": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202010&crn_in=10074",
+                "term": "Fall 2019",
+                "registration": "Apr 08, 2019 to Aug 31, 2019",
+                "levels": "Undergraduate",
+                "attributes": "Communications Requirement, Lab Safety Instruction, Standard Tuition Rate",
+                "campus": "Mies Campus",
+                "type": "Lecture",
+                "instructional_method": "Traditional Instructional Method",
+                "credits": 4,
+                "catalog": "https://ssb.iit.edu/bnrprd/bwckctlg.p_display_courses?term_in=202010&one_subj=PHYS&sel_crse_strt=221&sel_crse_end=221&sel_subj=&sel_levl=&sel_schd=&sel_coll=&sel_divs=&sel_dept=&sel_attr=",
+                "instructors": [
+                    "Leia Joanna Asimacopoulos"
+                ],
+                "dateRange": "Aug 19, 2019 - Dec 07, 2019",
+                "classes": {
+                    "T": {
+                        "start": 830,
+                        "end": 905,
+                        "location": "Robert A. Pritzker Science Ctr 152"
+                    },
+                    "R": {
+                        "start": 830,
+                        "end": 905,
+                        "location": "Robert A. Pritzker Science Ctr 152"
+                    }
+                }
+            },
+            "10075": {
+                "name": "Laboratory",
+                "crn": "10075",
+                "course": "PHYS 221",
+                "section": "L05",
+                "link": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202010&crn_in=10075",
+                "term": "Fall 2019",
+                "registration": "Apr 08, 2019 to Aug 31, 2019",
+                "levels": "Undergraduate",
+                "attributes": "Communications Requirement, Lab Safety Instruction, Standard Tuition Rate",
+                "campus": "Mies Campus",
+                "type": "Lab",
+                "instructional_method": "Traditional Instructional Method",
+                "credits": 0,
+                "catalog": "https://ssb.iit.edu/bnrprd/bwckctlg.p_display_courses?term_in=202010&one_subj=PHYS&sel_crse_strt=221&sel_crse_end=221&sel_subj=&sel_levl=&sel_schd=&sel_coll=&sel_divs=&sel_dept=&sel_attr=",
+                "instructors": [
+                    "Leia Joanna Asimacopoulos"
+                ],
+                "dateRange": "Aug 19, 2019 - Dec 07, 2019",
+                "classes": {
+                    "W": {
+                        "start": 915,
+                        "end": 990,
+                        "location": "Robert A. Pritzker Science Ctr 265A"
+                    }
+                }
+            },
+            "11683": {
+                "name": "Laboratory",
+                "crn": "11683",
+                "course": "PHYS 221",
+                "section": "L06",
+                "link": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202010&crn_in=11683",
+                "term": "Fall 2019",
+                "registration": "Apr 08, 2019 to Aug 31, 2019",
+                "levels": "Undergraduate",
+                "attributes": "Communications Requirement, Lab Safety Instruction, Standard Tuition Rate",
+                "campus": "Mies Campus",
+                "type": "Lab",
+                "instructional_method": "Traditional Instructional Method",
+                "credits": 0,
+                "catalog": "https://ssb.iit.edu/bnrprd/bwckctlg.p_display_courses?term_in=202010&one_subj=PHYS&sel_crse_strt=221&sel_crse_end=221&sel_subj=&sel_levl=&sel_schd=&sel_coll=&sel_divs=&sel_dept=&sel_attr=",
+                "instructors": [
+                    "Leia Joanna Asimacopoulos"
+                ],
+                "dateRange": "Aug 19, 2019 - Dec 07, 2019",
+                "classes": {
+                    "R": {
+                        "start": 600,
+                        "end": 675,
+                        "location": "Robert A. Pritzker Science Ctr 265A"
+                    }
+                }
+            }
+        },
+        "Alan Glodowski": {
+            "11684": {
+                "name": "Gen Physics II: Elect&amp;Magntism",
+                "crn": "11684",
+                "course": "PHYS 221",
+                "section": "04",
+                "link": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202010&crn_in=11684",
+                "term": "Fall 2019",
+                "registration": "Apr 08, 2019 to Aug 31, 2019",
+                "levels": "Undergraduate",
+                "attributes": "Communications Requirement, Lab Safety Instruction, Standard Tuition Rate",
+                "campus": "Mies Campus",
+                "type": "Lecture",
+                "instructional_method": "Traditional Instructional Method",
+                "credits": 4,
+                "catalog": "https://ssb.iit.edu/bnrprd/bwckctlg.p_display_courses?term_in=202010&one_subj=PHYS&sel_crse_strt=221&sel_crse_end=221&sel_subj=&sel_levl=&sel_schd=&sel_coll=&sel_divs=&sel_dept=&sel_attr=",
+                "instructors": [
+                    "Alan Glodowski"
+                ],
+                "dateRange": "Aug 19, 2019 - Dec 07, 2019",
+                "classes": {
+                    "M": {
+                        "start": 685,
+                        "end": 760,
+                        "location": "Robert A. Pritzker Science Ctr 240"
+                    },
+                    "W": {
+                        "start": 685,
+                        "end": 760,
+                        "location": "Robert A. Pritzker Science Ctr 240"
+                    }
+                }
+            },
+            "11685": {
+                "name": "Laboratory",
+                "crn": "11685",
+                "course": "PHYS 221",
+                "section": "L07",
+                "link": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202010&crn_in=11685",
+                "term": "Fall 2019",
+                "registration": "Apr 08, 2019 to Aug 31, 2019",
+                "levels": "Undergraduate",
+                "attributes": "Communications Requirement, Lab Safety Instruction, Standard Tuition Rate",
+                "campus": "Mies Campus",
+                "type": "Lab",
+                "instructional_method": "Traditional Instructional Method",
+                "credits": 0,
+                "catalog": "https://ssb.iit.edu/bnrprd/bwckctlg.p_display_courses?term_in=202010&one_subj=PHYS&sel_crse_strt=221&sel_crse_end=221&sel_subj=&sel_levl=&sel_schd=&sel_coll=&sel_divs=&sel_dept=&sel_attr=",
+                "instructors": [
+                    "Alan Glodowski"
+                ],
+                "dateRange": "Aug 19, 2019 - Dec 07, 2019",
+                "classes": {
+                    "F": {
+                        "start": 600,
+                        "end": 675,
+                        "location": "Robert A. Pritzker Science Ctr 265A"
+                    }
+                }
+            },
+            "11686": {
+                "name": "Laboratory",
+                "crn": "11686",
+                "course": "PHYS 221",
+                "section": "L08",
+                "link": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202010&crn_in=11686",
+                "term": "Fall 2019",
+                "registration": "Apr 08, 2019 to Aug 31, 2019",
+                "levels": "Undergraduate",
+                "attributes": "Communications Requirement, Lab Safety Instruction, Standard Tuition Rate",
+                "campus": "Mies Campus",
+                "type": "Lab",
+                "instructional_method": "Traditional Instructional Method",
+                "credits": 0,
+                "catalog": "https://ssb.iit.edu/bnrprd/bwckctlg.p_display_courses?term_in=202010&one_subj=PHYS&sel_crse_strt=221&sel_crse_end=221&sel_subj=&sel_levl=&sel_schd=&sel_coll=&sel_divs=&sel_dept=&sel_attr=",
+                "instructors": [
+                    "Alan Glodowski"
+                ],
+                "dateRange": "Aug 19, 2019 - Dec 07, 2019",
+                "classes": {
+                    "T": {
+                        "start": 915,
+                        "end": 990,
+                        "location": "Robert A. Pritzker Science Ctr 265A"
+                    }
+                }
+            },
+            "11863": {
+                "name": "Gen Physics II: Elect&amp;Magntism",
+                "crn": "11863",
+                "course": "PHYS 221",
+                "section": "05",
+                "link": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202010&crn_in=11863",
+                "term": "Fall 2019",
+                "registration": "Apr 08, 2019 to Aug 31, 2019",
+                "levels": "Undergraduate",
+                "attributes": "Communications Requirement, Lab Safety Instruction, Standard Tuition Rate",
+                "campus": "Mies Campus",
+                "type": "Lecture",
+                "instructional_method": "Traditional Instructional Method",
+                "credits": 4,
+                "catalog": "https://ssb.iit.edu/bnrprd/bwckctlg.p_display_courses?term_in=202010&one_subj=PHYS&sel_crse_strt=221&sel_crse_end=221&sel_subj=&sel_levl=&sel_schd=&sel_coll=&sel_divs=&sel_dept=&sel_attr=",
+                "instructors": [
+                    "Alan Glodowski"
+                ],
+                "dateRange": "Aug 19, 2019 - Dec 07, 2019",
+                "classes": {
+                    "M": {
+                        "start": 830,
+                        "end": 905,
+                        "location": "Robert A. Pritzker Science Ctr 129"
+                    },
+                    "W": {
+                        "start": 830,
+                        "end": 905,
+                        "location": "Robert A. Pritzker Science Ctr 129"
+                    }
+                }
+            },
+            "11864": {
+                "name": "Laboratory",
+                "crn": "11864",
+                "course": "PHYS 221",
+                "section": "L09",
+                "link": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202010&crn_in=11864",
+                "term": "Fall 2019",
+                "registration": "Apr 08, 2019 to Aug 31, 2019",
+                "levels": "Undergraduate",
+                "attributes": "Communications Requirement, Lab Safety Instruction, Standard Tuition Rate",
+                "campus": "Mies Campus",
+                "type": "Lab",
+                "instructional_method": "Traditional Instructional Method",
+                "credits": 0,
+                "catalog": "https://ssb.iit.edu/bnrprd/bwckctlg.p_display_courses?term_in=202010&one_subj=PHYS&sel_crse_strt=221&sel_crse_end=221&sel_subj=&sel_levl=&sel_schd=&sel_coll=&sel_divs=&sel_dept=&sel_attr=",
+                "instructors": [
+                    "Alan Glodowski"
+                ],
+                "dateRange": "Aug 19, 2019 - Dec 07, 2019",
+                "classes": {
+                    "T": {
+                        "start": 1190,
+                        "end": 1265,
+                        "location": "Robert A. Pritzker Science Ctr 265A"
+                    }
+                }
+            },
+            "11865": {
+                "name": "Laboratory",
+                "crn": "11865",
+                "course": "PHYS 221",
+                "section": "L10",
+                "link": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202010&crn_in=11865",
+                "term": "Fall 2019",
+                "registration": "Apr 08, 2019 to Aug 31, 2019",
+                "levels": "Undergraduate",
+                "attributes": "Communications Requirement, Lab Safety Instruction, Standard Tuition Rate",
+                "campus": "Mies Campus",
+                "type": "Lab",
+                "instructional_method": "Traditional Instructional Method",
+                "credits": 0,
+                "catalog": "https://ssb.iit.edu/bnrprd/bwckctlg.p_display_courses?term_in=202010&one_subj=PHYS&sel_crse_strt=221&sel_crse_end=221&sel_subj=&sel_levl=&sel_schd=&sel_coll=&sel_divs=&sel_dept=&sel_attr=",
+                "instructors": [
+                    "Alan Glodowski"
+                ],
+                "dateRange": "Aug 19, 2019 - Dec 07, 2019",
+                "classes": {
+                    "F": {
+                        "start": 685,
+                        "end": 760,
+                        "location": "Robert A. Pritzker Science Ctr 265A"
+                    }
+                }
+            },
+            "12893": {
+                "name": "Gen Physics II: Elect&amp;Magntism",
+                "crn": "12893",
+                "course": "PHYS 221",
+                "section": "06",
+                "link": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202010&crn_in=12893",
+                "term": "Fall 2019",
+                "registration": "Apr 08, 2019 to Aug 31, 2019",
+                "levels": "Undergraduate",
+                "attributes": "Communications Requirement, Lab Safety Instruction, Standard Tuition Rate",
+                "campus": "Mies Campus",
+                "type": "Lecture",
+                "instructional_method": "Traditional Instructional Method",
+                "credits": 4,
+                "catalog": "https://ssb.iit.edu/bnrprd/bwckctlg.p_display_courses?term_in=202010&one_subj=PHYS&sel_crse_strt=221&sel_crse_end=221&sel_subj=&sel_levl=&sel_schd=&sel_coll=&sel_divs=&sel_dept=&sel_attr=",
+                "instructors": [
+                    "Alan Glodowski"
+                ],
+                "dateRange": "Aug 19, 2019 - Dec 07, 2019",
+                "classes": {
+                    "M": {
+                        "start": 515,
+                        "end": 590,
+                        "location": "Robert A. Pritzker Science Ctr 121"
+                    },
+                    "W": {
+                        "start": 515,
+                        "end": 590,
+                        "location": "Robert A. Pritzker Science Ctr 121"
+                    }
+                }
+            },
+            "12894": {
+                "name": "Laboratory",
+                "crn": "12894",
+                "course": "PHYS 221",
+                "section": "L11",
+                "link": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202010&crn_in=12894",
+                "term": "Fall 2019",
+                "registration": "Apr 08, 2019 to Aug 31, 2019",
+                "levels": "Undergraduate",
+                "attributes": "Communications Requirement, Lab Safety Instruction, Standard Tuition Rate",
+                "campus": "Mies Campus",
+                "type": "Lab",
+                "instructional_method": "Traditional Instructional Method",
+                "credits": 0,
+                "catalog": "https://ssb.iit.edu/bnrprd/bwckctlg.p_display_courses?term_in=202010&one_subj=PHYS&sel_crse_strt=221&sel_crse_end=221&sel_subj=&sel_levl=&sel_schd=&sel_coll=&sel_divs=&sel_dept=&sel_attr=",
+                "instructors": [
+                    "Alan Glodowski"
+                ],
+                "dateRange": "Aug 19, 2019 - Dec 07, 2019",
+                "classes": {
+                    "T": {
+                        "start": 600,
+                        "end": 675,
+                        "location": "Robert A. Pritzker Science Ctr 265A"
+                    }
+                }
+            },
+            "12895": {
+                "name": "Laboratory",
+                "crn": "12895",
+                "course": "PHYS 221",
+                "section": "L12",
+                "link": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202010&crn_in=12895",
+                "term": "Fall 2019",
+                "registration": "Apr 08, 2019 to Aug 31, 2019",
+                "levels": "Undergraduate",
+                "attributes": "Communications Requirement, Lab Safety Instruction, Standard Tuition Rate",
+                "campus": "Mies Campus",
+                "type": "Lab",
+                "instructional_method": "Traditional Instructional Method",
+                "credits": 0,
+                "catalog": "https://ssb.iit.edu/bnrprd/bwckctlg.p_display_courses?term_in=202010&one_subj=PHYS&sel_crse_strt=221&sel_crse_end=221&sel_subj=&sel_levl=&sel_schd=&sel_coll=&sel_divs=&sel_dept=&sel_attr=",
+                "instructors": [
+                    "Alan Glodowski"
+                ],
+                "dateRange": "Aug 19, 2019 - Dec 07, 2019",
+                "classes": {
+                    "R": {
+                        "start": 915,
+                        "end": 990,
+                        "location": "Robert A. Pritzker Science Ctr 265A"
+                    }
+                }
+            }
+        }
+    },
+    "PHYS 223": {
+        "Timothy I. Morrison": {
+            "10076": {
+                "name": "General Physics III",
+                "crn": "10076",
+                "course": "PHYS 223",
+                "section": "01",
+                "link": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202010&crn_in=10076",
+                "term": "Fall 2019",
+                "registration": "Apr 08, 2019 to Aug 31, 2019",
+                "levels": "Undergraduate",
+                "attributes": "Communications Requirement, Lab Safety Instruction, Standard Tuition Rate",
+                "campus": "Mies Campus",
+                "type": "Lab",
+                "instructional_method": "Traditional Instructional Method",
+                "credits": 4,
+                "catalog": "https://ssb.iit.edu/bnrprd/bwckctlg.p_display_courses?term_in=202010&one_subj=PHYS&sel_crse_strt=223&sel_crse_end=223&sel_subj=&sel_levl=&sel_schd=&sel_coll=&sel_divs=&sel_dept=&sel_attr=",
+                "instructors": [
+                    "Timothy I. Morrison"
+                ],
+                "dateRange": "Aug 19, 2019 - Dec 07, 2019",
+                "classes": {
+                    "M": {
+                        "start": 600,
+                        "end": 675,
+                        "location": "Robert A. Pritzker Science Ctr 265A"
+                    },
+                    "W": {
+                        "start": 830,
+                        "end": 905,
+                        "location": "Siegel Hall 204"
+                    }
+                }
+            }
+        }
+    },
+    "PHYS 224": {
+        "Timothy I. Morrison": {
+            "10077": {
+                "name": "Gen Physics III for Engnrs",
+                "crn": "10077",
+                "course": "PHYS 224",
+                "section": "01",
+                "link": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202010&crn_in=10077",
+                "term": "Fall 2019",
+                "registration": "Apr 08, 2019 to Aug 31, 2019",
+                "levels": "Undergraduate",
+                "attributes": "Standard Tuition Rate",
+                "campus": "Mies Campus",
+                "type": "Lecture",
+                "instructional_method": "Traditional Instructional Method",
+                "credits": 3,
+                "catalog": "https://ssb.iit.edu/bnrprd/bwckctlg.p_display_courses?term_in=202010&one_subj=PHYS&sel_crse_strt=224&sel_crse_end=224&sel_subj=&sel_levl=&sel_schd=&sel_coll=&sel_divs=&sel_dept=&sel_attr=",
+                "instructors": [
+                    "Timothy I. Morrison"
+                ],
+                "dateRange": "Aug 19, 2019 - Dec 07, 2019",
+                "classes": {
+                    "M": {
+                        "start": 685,
+                        "end": 760,
+                        "location": "Hermann Hall 005"
+                    },
+                    "W": {
+                        "start": 685,
+                        "end": 760,
+                        "location": "Hermann Hall 005"
+                    }
+                }
+            }
+        }
+    },
+    "PHYS 300": {
+        "Yagmur Torun": {
+            "11491": {
+                "name": "Instrumentation Lab",
+                "crn": "11491",
+                "course": "PHYS 300",
+                "section": "01",
+                "link": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202010&crn_in=11491",
+                "term": "Fall 2019",
+                "registration": "Apr 08, 2019 to Aug 31, 2019",
+                "levels": "Undergraduate",
+                "attributes": "Communications Requirement, Lab Safety Instruction, Standard Tuition Rate",
+                "campus": "Mies Campus",
+                "type": "Lecture",
+                "instructional_method": "Traditional Instructional Method",
+                "credits": 4,
+                "catalog": "https://ssb.iit.edu/bnrprd/bwckctlg.p_display_courses?term_in=202010&one_subj=PHYS&sel_crse_strt=300&sel_crse_end=300&sel_subj=&sel_levl=&sel_schd=&sel_coll=&sel_divs=&sel_dept=&sel_attr=",
+                "instructors": [
+                    "Yagmur Torun"
+                ],
+                "dateRange": "Aug 19, 2019 - Dec 07, 2019",
+                "classes": {
+                    "T": {
+                        "start": 515,
+                        "end": 675,
+                        "location": "Robert A. Pritzker Science Ctr 120"
+                    },
+                    "R": {
+                        "start": 515,
+                        "end": 675,
+                        "location": "Robert A. Pritzker Science Ctr 120"
+                    }
+                }
+            }
+        }
+    },
+    "PHYS 301": {
+        "Yurii Shylnov": {
+            "11917": {
+                "name": "Math Methods of Physics",
+                "crn": "11917",
+                "course": "PHYS 301",
+                "section": "01",
+                "link": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202010&crn_in=11917",
+                "term": "Fall 2019",
+                "registration": "Apr 08, 2019 to Aug 31, 2019",
+                "levels": "Undergraduate",
+                "attributes": "Standard Tuition Rate",
+                "campus": "Mies Campus",
+                "type": "Lecture",
+                "instructional_method": "Traditional Instructional Method",
+                "credits": 3,
+                "catalog": "https://ssb.iit.edu/bnrprd/bwckctlg.p_display_courses?term_in=202010&one_subj=PHYS&sel_crse_strt=301&sel_crse_end=301&sel_subj=&sel_levl=&sel_schd=&sel_coll=&sel_divs=&sel_dept=&sel_attr=",
+                "instructors": [
+                    "Yurii Shylnov"
+                ],
+                "dateRange": "Aug 19, 2019 - Dec 07, 2019",
+                "classes": {
+                    "M": {
+                        "start": 685,
+                        "end": 760,
+                        "location": "Robert A. Pritzker Science Ctr 116"
+                    },
+                    "W": {
+                        "start": 685,
+                        "end": 760,
+                        "location": "Robert A. Pritzker Science Ctr 116"
+                    }
+                }
+            }
+        }
+    },
+    "PHYS 308": {
+        "Grant Bunker": {
+            "10078": {
+                "name": "Classical Mechanics I",
+                "crn": "10078",
+                "course": "PHYS 308",
+                "section": "01",
+                "link": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202010&crn_in=10078",
+                "term": "Fall 2019",
+                "registration": "Apr 08, 2019 to Aug 31, 2019",
+                "levels": "Undergraduate",
+                "attributes": "Standard Tuition Rate",
+                "campus": "Mies Campus",
+                "type": "Lecture",
+                "instructional_method": "Traditional Instructional Method",
+                "credits": 3,
+                "catalog": "https://ssb.iit.edu/bnrprd/bwckctlg.p_display_courses?term_in=202010&one_subj=PHYS&sel_crse_strt=308&sel_crse_end=308&sel_subj=&sel_levl=&sel_schd=&sel_coll=&sel_divs=&sel_dept=&sel_attr=",
+                "instructors": [
+                    "Grant Bunker"
+                ],
+                "dateRange": "Aug 19, 2019 - Dec 07, 2019",
+                "classes": {
+                    "M": {
+                        "start": 915,
+                        "end": 990,
+                        "location": "Robert A. Pritzker Science Ctr 129"
+                    },
+                    "W": {
+                        "start": 915,
+                        "end": 990,
+                        "location": "Robert A. Pritzker Science Ctr 129"
+                    }
+                }
+            }
+        }
+    },
+    "PHYS 348": {
+        "Daniel Kaplan": {
+            "11866": {
+                "name": "Modern Physics for Scntst&amp;Engr",
+                "crn": "11866",
+                "course": "PHYS 348",
+                "section": "01",
+                "link": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202010&crn_in=11866",
+                "term": "Fall 2019",
+                "registration": "Apr 08, 2019 to Aug 31, 2019",
+                "levels": "Undergraduate",
+                "attributes": "Standard Tuition Rate",
+                "campus": "Mies Campus",
+                "type": "Lecture",
+                "instructional_method": "Traditional Instructional Method",
+                "credits": 3,
+                "catalog": "https://ssb.iit.edu/bnrprd/bwckctlg.p_display_courses?term_in=202010&one_subj=PHYS&sel_crse_strt=348&sel_crse_end=348&sel_subj=&sel_levl=&sel_schd=&sel_coll=&sel_divs=&sel_dept=&sel_attr=",
+                "instructors": [
+                    "Daniel Kaplan"
+                ],
+                "dateRange": "Aug 19, 2019 - Dec 07, 2019",
+                "classes": {
+                    "M": {
+                        "start": 830,
+                        "end": 905,
+                        "location": "Robert A. Pritzker Science Ctr 116"
+                    },
+                    "W": {
+                        "start": 830,
+                        "end": 905,
+                        "location": "Robert A. Pritzker Science Ctr 116"
+                    }
+                }
+            }
+        }
+    },
+    "PHYS 361": {
+        "Geza Gyuk|Andrew K. Johnston": {
+            "12896": {
+                "name": "Observational Astrophysics",
+                "crn": "12896",
+                "course": "PHYS 361",
+                "section": "01",
+                "link": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202010&crn_in=12896",
+                "term": "Fall 2019",
+                "registration": "Apr 08, 2019 to Aug 31, 2019",
+                "levels": "Undergraduate",
+                "attributes": "Natural Science or Engr Req., Standard Tuition Rate",
+                "campus": "Mies Campus",
+                "type": "Lab",
+                "instructional_method": "Traditional Instructional Method",
+                "credits": 4,
+                "catalog": "https://ssb.iit.edu/bnrprd/bwckctlg.p_display_courses?term_in=202010&one_subj=PHYS&sel_crse_strt=361&sel_crse_end=361&sel_subj=&sel_levl=&sel_schd=&sel_coll=&sel_divs=&sel_dept=&sel_attr=",
+                "instructors": [
+                    "Geza Gyuk",
+                    "Andrew K. Johnston"
+                ],
+                "dateRange": "Aug 19, 2019 - Dec 07, 2019",
+                "classes": {
+                    "M": {
+                        "start": 515,
+                        "end": 675,
+                        "location": "John T. Rettaliata Engg Center 032"
+                    },
+                    "W": {
+                        "start": 1050,
+                        "end": 1210,
+                        "location": "Robert A. Pritzker Science Ctr 112"
+                    }
+                }
+            }
+        }
+    },
+    "PHYS 404": {
+        "Russell Betts": {
+            "12897": {
+                "name": "Subatomic Physics",
+                "crn": "12897",
+                "course": "PHYS 404",
+                "section": "01",
+                "link": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202010&crn_in=12897",
+                "term": "Fall 2019",
+                "registration": "Apr 08, 2019 to Aug 31, 2019",
+                "levels": "Graduate Business, Graduate, Undergraduate",
+                "attributes": "Standard Tuition Rate",
+                "campus": "Mies Campus",
+                "type": "Lecture",
+                "instructional_method": "Traditional Instructional Method",
+                "credits": 3,
+                "catalog": "https://ssb.iit.edu/bnrprd/bwckctlg.p_display_courses?term_in=202010&one_subj=PHYS&sel_crse_strt=404&sel_crse_end=404&sel_subj=&sel_levl=&sel_schd=&sel_coll=&sel_divs=&sel_dept=&sel_attr=",
+                "instructors": [
+                    "Russell Betts"
+                ],
+                "dateRange": "Aug 19, 2019 - Dec 07, 2019",
+                "classes": {
+                    "M": {
+                        "start": 830,
+                        "end": 905,
+                        "location": "John T. Rettaliata Engg Center 034"
+                    },
+                    "W": {
+                        "start": 830,
+                        "end": 905,
+                        "location": "John T. Rettaliata Engg Center 034"
+                    }
+                }
+            }
+        }
+    },
+    "PHYS 405": {
+        "Carlo U. Segre": {
+            "10079": {
+                "name": "Fndmntls of Quantum Theory I",
+                "crn": "10079",
+                "course": "PHYS 405",
+                "section": "01",
+                "link": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202010&crn_in=10079",
+                "term": "Fall 2019",
+                "registration": "Apr 08, 2019 to Aug 31, 2019",
+                "levels": "Graduate Business, Graduate, Undergraduate",
+                "attributes": "Standard Tuition Rate",
+                "campus": "Mies Campus",
+                "type": "Lecture",
+                "instructional_method": "Traditional Instructional Method",
+                "credits": 3,
+                "catalog": "https://ssb.iit.edu/bnrprd/bwckctlg.p_display_courses?term_in=202010&one_subj=PHYS&sel_crse_strt=405&sel_crse_end=405&sel_subj=&sel_levl=&sel_schd=&sel_coll=&sel_divs=&sel_dept=&sel_attr=",
+                "instructors": [
+                    "Carlo U. Segre"
+                ],
+                "dateRange": "Aug 19, 2019 - Dec 07, 2019",
+                "classes": {
+                    "T": {
+                        "start": 830,
+                        "end": 905,
+                        "location": "Stuart Building 239"
+                    },
+                    "R": {
+                        "start": 830,
+                        "end": 905,
+                        "location": "Stuart Building 239"
+                    }
+                }
+            }
+        }
+    },
+    "PHYS 413": {
+        "Linda K Spentzouris": {
+            "10080": {
+                "name": "Electromagnetism I",
+                "crn": "10080",
+                "course": "PHYS 413",
+                "section": "01",
+                "link": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202010&crn_in=10080",
+                "term": "Fall 2019",
+                "registration": "Apr 08, 2019 to Aug 31, 2019",
+                "levels": "Graduate Business, Graduate, Undergraduate",
+                "attributes": "Standard Tuition Rate",
+                "campus": "Mies Campus",
+                "type": "Lecture",
+                "instructional_method": "Traditional Instructional Method",
+                "credits": 3,
+                "catalog": "https://ssb.iit.edu/bnrprd/bwckctlg.p_display_courses?term_in=202010&one_subj=PHYS&sel_crse_strt=413&sel_crse_end=413&sel_subj=&sel_levl=&sel_schd=&sel_coll=&sel_divs=&sel_dept=&sel_attr=",
+                "instructors": [
+                    "Linda K Spentzouris"
+                ],
+                "dateRange": "Aug 19, 2019 - Dec 07, 2019",
+                "classes": {
+                    "T": {
+                        "start": 685,
+                        "end": 760,
+                        "location": "Robert A. Pritzker Science Ctr 116"
+                    },
+                    "R": {
+                        "start": 685,
+                        "end": 760,
+                        "location": "Robert A. Pritzker Science Ctr 116"
+                    }
+                }
+            }
+        }
+    },
+    "PHYS 427": {
+        "John F. Zasadzinski": {
+            "10081": {
+                "name": "Advanced Physics Lab I",
+                "crn": "10081",
+                "course": "PHYS 427",
+                "section": "01",
+                "link": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202010&crn_in=10081",
+                "term": "Fall 2019",
+                "registration": "Apr 08, 2019 to Aug 31, 2019",
+                "levels": "Graduate Business, Graduate, Undergraduate",
+                "attributes": "Communications Requirement, Lab Safety Instruction, Standard Tuition Rate",
+                "campus": "Mies Campus",
+                "type": "Lecture",
+                "instructional_method": "Traditional Instructional Method",
+                "credits": 3,
+                "catalog": "https://ssb.iit.edu/bnrprd/bwckctlg.p_display_courses?term_in=202010&one_subj=PHYS&sel_crse_strt=427&sel_crse_end=427&sel_subj=&sel_levl=&sel_schd=&sel_coll=&sel_divs=&sel_dept=&sel_attr=",
+                "instructors": [
+                    "John F. Zasadzinski"
+                ],
+                "dateRange": "Aug 19, 2019 - Dec 07, 2019",
+                "classes": {
+                    "F": {
+                        "start": 830,
+                        "end": 930,
+                        "location": "Robert A. Pritzker Science Ctr 130"
+                    }
+                }
+            }
+        }
+    },
+    "PHYS 437": {
+        "Jeffrey H. Terry": {
+            "12898": {
+                "name": "Solid-State Physics",
+                "crn": "12898",
+                "course": "PHYS 437",
+                "section": "01",
+                "link": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202010&crn_in=12898",
+                "term": "Fall 2019",
+                "registration": "Apr 08, 2019 to Aug 31, 2019",
+                "levels": "Graduate Business, Graduate, Undergraduate",
+                "attributes": "Standard Tuition Rate",
+                "campus": "Mies Campus",
+                "type": "Lecture",
+                "instructional_method": "Traditional Instructional Method",
+                "credits": 3,
+                "catalog": "https://ssb.iit.edu/bnrprd/bwckctlg.p_display_courses?term_in=202010&one_subj=PHYS&sel_crse_strt=437&sel_crse_end=437&sel_subj=&sel_levl=&sel_schd=&sel_coll=&sel_divs=&sel_dept=&sel_attr=",
+                "instructors": [
+                    "Jeffrey H. Terry"
+                ],
+                "dateRange": "Aug 19, 2019 - Dec 07, 2019",
+                "classes": {
+                    "M": {
+                        "start": 600,
+                        "end": 675,
+                        "location": "John T. Rettaliata Engg Center 026"
+                    },
+                    "W": {
+                        "start": 600,
+                        "end": 675,
+                        "location": "John T. Rettaliata Engg Center 026"
+                    }
+                }
+            }
+        }
+    },
+    "PHYS 460": {
+        "Sally Laurent": {
+            "12899": {
+                "name": "Stellar Astrophysics",
+                "crn": "12899",
+                "course": "PHYS 460",
+                "section": "01",
+                "link": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202010&crn_in=12899",
+                "term": "Fall 2019",
+                "registration": "Apr 08, 2019 to Aug 31, 2019",
+                "levels": "Graduate Business, Graduate, Undergraduate",
+                "attributes": "Standard Tuition Rate",
+                "campus": "Mies Campus",
+                "type": "Lecture",
+                "instructional_method": "Traditional Instructional Method",
+                "credits": 3,
+                "catalog": "https://ssb.iit.edu/bnrprd/bwckctlg.p_display_courses?term_in=202010&one_subj=PHYS&sel_crse_strt=460&sel_crse_end=460&sel_subj=&sel_levl=&sel_schd=&sel_coll=&sel_divs=&sel_dept=&sel_attr=",
+                "instructors": [
+                    "Sally Laurent"
+                ],
+                "dateRange": "Aug 19, 2019 - Dec 07, 2019",
+                "classes": {
+                    "T": {
+                        "start": 915,
+                        "end": 990,
+                        "location": "Stuart Building 213"
+                    },
+                    "R": {
+                        "start": 915,
+                        "end": 990,
+                        "location": "Stuart Building 213"
+                    }
+                }
+            }
+        }
+    },
+    "PHYS 485": {
+        "Bryce Littlejohn": {
+            "10082": {
+                "name": "Physics Colloquium",
+                "crn": "10082",
+                "course": "PHYS 485",
+                "section": "01",
+                "link": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202010&crn_in=10082",
+                "term": "Fall 2019",
+                "registration": "Apr 08, 2019 to Aug 31, 2019",
+                "levels": "Graduate, Undergraduate",
+                "attributes": "Standard Tuition Rate",
+                "campus": "Mies Campus",
+                "type": "Seminar",
+                "instructional_method": "Traditional Instructional Method",
+                "credits": 1,
+                "catalog": "https://ssb.iit.edu/bnrprd/bwckctlg.p_display_courses?term_in=202010&one_subj=PHYS&sel_crse_strt=485&sel_crse_end=485&sel_subj=&sel_levl=&sel_schd=&sel_coll=&sel_divs=&sel_dept=&sel_attr=",
+                "instructors": [
+                    "Bryce Littlejohn"
+                ],
+                "dateRange": "Aug 19, 2019 - Dec 07, 2019",
+                "classes": {
+                    "R": {
+                        "start": 915,
+                        "end": 990,
+                        "location": "Robert A. Pritzker Science Ctr 111"
+                    }
+                }
+            }
+        }
+    },
+    "PHYS 501": {
+        "Yurii Shylnov": {
+            "10084": {
+                "name": "Meth Theoretical Physics I",
+                "crn": "10084",
+                "course": "PHYS 501",
+                "section": "01",
+                "link": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202010&crn_in=10084",
+                "term": "Fall 2019",
+                "registration": "Apr 08, 2019 to Aug 31, 2019",
+                "levels": "Graduate Business, Graduate, Undergraduate",
+                "attributes": "Standard Tuition Rate",
+                "campus": "Mies Campus",
+                "type": "Lecture",
+                "instructional_method": "Traditional Instructional Method",
+                "credits": 3,
+                "catalog": "https://ssb.iit.edu/bnrprd/bwckctlg.p_display_courses?term_in=202010&one_subj=PHYS&sel_crse_strt=501&sel_crse_end=501&sel_subj=&sel_levl=&sel_schd=&sel_coll=&sel_divs=&sel_dept=&sel_attr=",
+                "instructors": [
+                    "Yurii Shylnov"
+                ],
+                "dateRange": "Aug 19, 2019 - Dec 07, 2019",
+                "classes": {
+                    "M": {
+                        "start": 600,
+                        "end": 675,
+                        "location": "Robert A. Pritzker Science Ctr 116"
+                    },
+                    "W": {
+                        "start": 600,
+                        "end": 675,
+                        "location": "Robert A. Pritzker Science Ctr 116"
+                    }
+                }
+            }
+        }
+    },
+    "PHYS 508": {
+        "Yurii Shylnov": {
+            "10085": {
+                "name": "Analytical Dynamics",
+                "crn": "10085",
+                "course": "PHYS 508",
+                "section": "01",
+                "link": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202010&crn_in=10085",
+                "term": "Fall 2019",
+                "registration": "Apr 08, 2019 to Aug 31, 2019",
+                "levels": "Graduate Business, Graduate, Undergraduate",
+                "attributes": "Standard Tuition Rate",
+                "campus": "Mies Campus",
+                "type": "Lecture",
+                "instructional_method": "Traditional Instructional Method",
+                "credits": 3,
+                "catalog": "https://ssb.iit.edu/bnrprd/bwckctlg.p_display_courses?term_in=202010&one_subj=PHYS&sel_crse_strt=508&sel_crse_end=508&sel_subj=&sel_levl=&sel_schd=&sel_coll=&sel_divs=&sel_dept=&sel_attr=",
+                "instructors": [
+                    "Yurii Shylnov"
+                ],
+                "dateRange": "Aug 19, 2019 - Dec 07, 2019",
+                "classes": {
+                    "T": {
+                        "start": 685,
+                        "end": 760,
+                        "location": "Robert A. Pritzker Science Ctr 213"
+                    },
+                    "R": {
+                        "start": 685,
+                        "end": 760,
+                        "location": "Robert A. Pritzker Science Ctr 213"
+                    }
+                }
+            }
+        }
+    },
+    "PHYS 509": {
+        "Liam Coffey": {
+            "10723": {
+                "name": "Quantum Theory I",
+                "crn": "10723",
+                "course": "PHYS 509",
+                "section": "01",
+                "link": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202010&crn_in=10723",
+                "term": "Fall 2019",
+                "registration": "Apr 08, 2019 to Aug 31, 2019",
+                "levels": "Graduate Business, Graduate, Non Credit, Undergraduate",
+                "attributes": "Standard Tuition Rate",
+                "campus": "Mies Campus",
+                "type": "Lecture",
+                "instructional_method": "Traditional Instructional Method",
+                "credits": 3,
+                "catalog": "https://ssb.iit.edu/bnrprd/bwckctlg.p_display_courses?term_in=202010&one_subj=PHYS&sel_crse_strt=509&sel_crse_end=509&sel_subj=&sel_levl=&sel_schd=&sel_coll=&sel_divs=&sel_dept=&sel_attr=",
+                "instructors": [
+                    "Liam Coffey"
+                ],
+                "dateRange": "Aug 19, 2019 - Dec 07, 2019",
+                "classes": {
+                    "T": {
+                        "start": 830,
+                        "end": 905,
+                        "location": "Robert A. Pritzker Science Ctr 116"
+                    },
+                    "R": {
+                        "start": 830,
+                        "end": 905,
+                        "location": "Robert A. Pritzker Science Ctr 116"
+                    }
+                }
+            }
+        }
+    },
+    "PHYS 515": {
+        "Liam Coffey": {
+            "11243": {
+                "name": "Statistical Mechanics",
+                "crn": "11243",
+                "course": "PHYS 515",
+                "section": "01",
+                "link": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202010&crn_in=11243",
+                "term": "Fall 2019",
+                "registration": "Apr 08, 2019 to Aug 31, 2019",
+                "levels": "Graduate Business, Graduate, Undergraduate",
+                "attributes": "Standard Tuition Rate",
+                "campus": "Mies Campus",
+                "type": "Lecture",
+                "instructional_method": "Traditional Instructional Method",
+                "credits": 3,
+                "catalog": "https://ssb.iit.edu/bnrprd/bwckctlg.p_display_courses?term_in=202010&one_subj=PHYS&sel_crse_strt=515&sel_crse_end=515&sel_subj=&sel_levl=&sel_schd=&sel_coll=&sel_divs=&sel_dept=&sel_attr=",
+                "instructors": [
+                    "Liam Coffey"
+                ],
+                "dateRange": "Aug 19, 2019 - Dec 07, 2019",
+                "classes": {
+                    "M": {
+                        "start": 685,
+                        "end": 760,
+                        "location": "Stuart Building 212"
+                    },
+                    "W": {
+                        "start": 685,
+                        "end": 760,
+                        "location": "Stuart Building 212"
+                    }
+                }
+            }
+        }
+    },
+    "PHYS 525": {
+        "Ali Khounsary": {
+            "12410": {
+                "name": "Appl Physics Methods Sci Engr",
+                "crn": "12410",
+                "course": "PHYS 525",
+                "section": "01",
+                "link": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202010&crn_in=12410",
+                "term": "Fall 2019",
+                "registration": "Apr 08, 2019 to Aug 31, 2019",
+                "levels": "Graduate Business, Graduate, Undergraduate",
+                "attributes": "Standard Tuition Rate",
+                "campus": "Mies Campus",
+                "type": "Lecture",
+                "instructional_method": "Traditional Instructional Method",
+                "credits": 3,
+                "catalog": "https://ssb.iit.edu/bnrprd/bwckctlg.p_display_courses?term_in=202010&one_subj=PHYS&sel_crse_strt=525&sel_crse_end=525&sel_subj=&sel_levl=&sel_schd=&sel_coll=&sel_divs=&sel_dept=&sel_attr=",
+                "instructors": [
+                    "Ali Khounsary"
+                ],
+                "dateRange": "Aug 19, 2019 - Dec 07, 2019",
+                "classes": {
+                    "F": {
+                        "start": 830,
+                        "end": 990,
+                        "location": "Robert A. Pritzker Science Ctr 116"
+                    }
+                }
+            }
+        }
+    },
+    "PHYS 526": {
+        "Ali Khounsary": {
+            "12411": {
+                "name": "Applied Physics Case Studies",
+                "crn": "12411",
+                "course": "PHYS 526",
+                "section": "01",
+                "link": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202010&crn_in=12411",
+                "term": "Fall 2019",
+                "registration": "Apr 08, 2019 to Aug 31, 2019",
+                "levels": "Graduate Business, Graduate, Undergraduate",
+                "attributes": "Standard Tuition Rate",
+                "campus": "Mies Campus",
+                "type": "Lecture",
+                "instructional_method": "Traditional Instructional Method",
+                "credits": 3,
+                "catalog": "https://ssb.iit.edu/bnrprd/bwckctlg.p_display_courses?term_in=202010&one_subj=PHYS&sel_crse_strt=526&sel_crse_end=526&sel_subj=&sel_levl=&sel_schd=&sel_coll=&sel_divs=&sel_dept=&sel_attr=",
+                "instructors": [
+                    "Ali Khounsary"
+                ],
+                "dateRange": "Aug 19, 2019 - Dec 07, 2019",
+                "classes": {
+                    "F": {
+                        "start": 830,
+                        "end": 990,
+                        "location": "Robert A. Pritzker Science Ctr 116"
+                    }
+                }
+            }
+        }
+    },
+    "PHYS 545": {
+        "Zack Sullivan": {
+            "11351": {
+                "name": "Particle Physics I",
+                "crn": "11351",
+                "course": "PHYS 545",
+                "section": "01",
+                "link": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202010&crn_in=11351",
+                "term": "Fall 2019",
+                "registration": "Apr 08, 2019 to Aug 31, 2019",
+                "levels": "Graduate Business, Graduate, Undergraduate",
+                "attributes": "Standard Tuition Rate",
+                "campus": "Mies Campus",
+                "type": "Lecture",
+                "instructional_method": "Traditional Instructional Method",
+                "credits": 3,
+                "catalog": "https://ssb.iit.edu/bnrprd/bwckctlg.p_display_courses?term_in=202010&one_subj=PHYS&sel_crse_strt=545&sel_crse_end=545&sel_subj=&sel_levl=&sel_schd=&sel_coll=&sel_divs=&sel_dept=&sel_attr=",
+                "instructors": [
+                    "Zack Sullivan"
+                ],
+                "dateRange": "Aug 19, 2019 - Dec 07, 2019",
+                "classes": {
+                    "T": {
+                        "start": 600,
+                        "end": 675,
+                        "location": "John T. Rettaliata Engg Center 032"
+                    },
+                    "R": {
+                        "start": 600,
+                        "end": 675,
+                        "location": "John T. Rettaliata Engg Center 032"
+                    }
+                }
+            }
+        }
+    },
+    "PHYS 561": {
+        "Thomas C Irving": {
+            "12146": {
+                "name": "Radiation Biophysics",
+                "crn": "12146",
+                "course": "PHYS 561",
+                "section": "01",
+                "link": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202010&crn_in=12146",
+                "term": "Fall 2019",
+                "registration": "Apr 08, 2019 to Aug 31, 2019",
+                "levels": "Graduate Business, Graduate, Undergraduate",
+                "attributes": "Standard Tuition Rate",
+                "campus": "Mies Campus",
+                "type": "Lecture",
+                "instructional_method": "Traditional Instructional Method",
+                "credits": 3,
+                "catalog": "https://ssb.iit.edu/bnrprd/bwckctlg.p_display_courses?term_in=202010&one_subj=PHYS&sel_crse_strt=561&sel_crse_end=561&sel_subj=&sel_levl=&sel_schd=&sel_coll=&sel_divs=&sel_dept=&sel_attr=",
+                "instructors": [
+                    "Thomas C Irving"
+                ],
+                "dateRange": "Aug 19, 2019 - Dec 07, 2019",
+                "classes": {
+                    "T": {
+                        "start": 515,
+                        "end": 590,
+                        "location": "John T. Rettaliata Engg Center 036"
+                    },
+                    "R": {
+                        "start": 515,
+                        "end": 590,
+                        "location": "John T. Rettaliata Engg Center 036"
+                    }
+                }
+            }
+        }
+    },
+    "PHYS 571": {
+        "Bryce Littlejohn": {
+            "10086": {
+                "name": "Radiation Physics",
+                "crn": "10086",
+                "course": "PHYS 571",
+                "section": "01",
+                "link": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202010&crn_in=10086",
+                "term": "Fall 2019",
+                "registration": "Apr 08, 2019 to Aug 31, 2019",
+                "levels": "Graduate Business, Graduate, Undergraduate",
+                "attributes": "Standard Tuition Rate",
+                "campus": "Mies Campus",
+                "type": "Lecture",
+                "instructional_method": "Traditional Instructional Method",
+                "credits": 3,
+                "catalog": "https://ssb.iit.edu/bnrprd/bwckctlg.p_display_courses?term_in=202010&one_subj=PHYS&sel_crse_strt=571&sel_crse_end=571&sel_subj=&sel_levl=&sel_schd=&sel_coll=&sel_divs=&sel_dept=&sel_attr=",
+                "instructors": [
+                    "Bryce Littlejohn"
+                ],
+                "dateRange": "Aug 19, 2019 - Dec 07, 2019",
+                "classes": {
+                    "R": {
+                        "start": 1105,
+                        "end": 1265,
+                        "location": "Stuart Building 212"
+                    }
+                }
+            }
+        }
+    },
+    "PHYS 573": {
+        "Shih": {
+            "12605": {
+                "name": "Stands Statutes Regulations",
+                "crn": "12605",
+                "course": "PHYS 573",
+                "section": "01",
+                "link": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202010&crn_in=12605",
+                "term": "Fall 2019",
+                "registration": "Apr 08, 2019 to Aug 31, 2019",
+                "levels": "Graduate Business, Graduate, Undergraduate",
+                "attributes": "Standard Tuition Rate",
+                "campus": "Rice Campus",
+                "type": "Lecture",
+                "instructional_method": "Traditional Instructional Method",
+                "credits": 3,
+                "catalog": "https://ssb.iit.edu/bnrprd/bwckctlg.p_display_courses?term_in=202010&one_subj=PHYS&sel_crse_strt=573&sel_crse_end=573&sel_subj=&sel_levl=&sel_schd=&sel_coll=&sel_divs=&sel_dept=&sel_attr=",
+                "instructors": [
+                    "Shih"
+                ],
+                "dateRange": "Aug 19, 2019 - Dec 07, 2019",
+                "classes": {
+                    "T": {
+                        "start": 1020,
+                        "end": 1180,
+                        "location": "Rice Campus 155"
+                    }
+                }
+            }
+        }
+    },
+    "PHYS 575": {
+        "Shih": {
+            "10090": {
+                "name": "Case Studies Health Physics",
+                "crn": "10090",
+                "course": "PHYS 575",
+                "section": "01",
+                "link": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202010&crn_in=10090",
+                "term": "Fall 2019",
+                "registration": "Apr 08, 2019 to Aug 31, 2019",
+                "levels": "Graduate Business, Graduate, Undergraduate",
+                "attributes": "Engineering Theme Health, Standard Tuition Rate",
+                "campus": "Rice Campus",
+                "type": "Lecture",
+                "instructional_method": "Traditional Instructional Method",
+                "credits": 3,
+                "catalog": "https://ssb.iit.edu/bnrprd/bwckctlg.p_display_courses?term_in=202010&one_subj=PHYS&sel_crse_strt=575&sel_crse_end=575&sel_subj=&sel_levl=&sel_schd=&sel_coll=&sel_divs=&sel_dept=&sel_attr=",
+                "instructors": [
+                    "Shih"
+                ],
+                "dateRange": "Aug 19, 2019 - Dec 07, 2019",
+                "classes": {
+                    "R": {
+                        "start": 1020,
+                        "end": 1180,
+                        "location": "Rice Campus 155"
+                    }
+                }
+            }
+        }
+    },
+    "PHYS 576": {
+        "Gary Zeman": {
+            "12313": {
+                "name": "PHYS 576 Radation Dosimetry",
+                "crn": "12313",
+                "course": "PHYS 576",
+                "section": "01",
+                "link": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202010&crn_in=12313",
+                "term": "Fall 2019",
+                "registration": "Apr 08, 2019 to Aug 31, 2019",
+                "levels": "Graduate Business, Graduate, Undergraduate",
+                "attributes": "Standard Tuition Rate",
+                "campus": "Rice Campus",
+                "type": "Lecture",
+                "instructional_method": "Traditional Instructional Method",
+                "credits": 3,
+                "catalog": "https://ssb.iit.edu/bnrprd/bwckctlg.p_display_courses?term_in=202010&one_subj=PHYS&sel_crse_strt=576&sel_crse_end=576&sel_subj=&sel_levl=&sel_schd=&sel_coll=&sel_divs=&sel_dept=&sel_attr=",
+                "instructors": [
+                    "Gary Zeman"
+                ],
+                "dateRange": "Aug 19, 2019 - Dec 07, 2019",
+                "classes": {
+                    "M": {
+                        "start": 1020,
+                        "end": 1095,
+                        "location": "Rice Campus 155"
+                    },
+                    "W": {
+                        "start": 1020,
+                        "end": 1095,
+                        "location": "Rice Campus 155"
+                    }
+                }
+            }
+        }
+    },
+    "PHYS 585": {
+        "Bryce Littlejohn": {
+            "10094": {
+                "name": "Physics Colloquium",
+                "crn": "10094",
+                "course": "PHYS 585",
+                "section": "01",
+                "link": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202010&crn_in=10094",
+                "term": "Fall 2019",
+                "registration": "Apr 08, 2019 to Aug 31, 2019",
+                "levels": "Graduate",
+                "attributes": "Standard Tuition Rate",
+                "campus": "Mies Campus",
+                "type": "Seminar",
+                "instructional_method": "Traditional Instructional Method",
+                "credits": 1,
+                "catalog": "https://ssb.iit.edu/bnrprd/bwckctlg.p_display_courses?term_in=202010&one_subj=PHYS&sel_crse_strt=585&sel_crse_end=585&sel_subj=&sel_levl=&sel_schd=&sel_coll=&sel_divs=&sel_dept=&sel_attr=",
+                "instructors": [
+                    "Bryce Littlejohn"
+                ],
+                "dateRange": "Aug 19, 2019 - Dec 07, 2019",
+                "classes": {
+                    "R": {
+                        "start": 915,
+                        "end": 990,
+                        "location": "Robert A. Pritzker Science Ctr 111"
+                    }
+                }
+            }
+        }
+    },
+    "PHYS 685": {
+        "Bryce Littlejohn": {
+            "10097": {
+                "name": "Physics Colloquium",
+                "crn": "10097",
+                "course": "PHYS 685",
+                "section": "01",
+                "link": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202010&crn_in=10097",
+                "term": "Fall 2019",
+                "registration": "Apr 08, 2019 to Aug 31, 2019",
+                "levels": "Graduate",
+                "attributes": "Standard Tuition Rate",
+                "campus": "Mies Campus",
+                "type": "Seminar",
+                "instructional_method": "Traditional Instructional Method",
+                "credits": 0,
+                "catalog": "https://ssb.iit.edu/bnrprd/bwckctlg.p_display_courses?term_in=202010&one_subj=PHYS&sel_crse_strt=685&sel_crse_end=685&sel_subj=&sel_levl=&sel_schd=&sel_coll=&sel_divs=&sel_dept=&sel_attr=",
+                "instructors": [
+                    "Bryce Littlejohn"
+                ],
+                "dateRange": "Aug 19, 2019 - Dec 07, 2019",
+                "classes": {
+                    "R": {
+                        "start": 915,
+                        "end": 990,
+                        "location": "Robert A. Pritzker Science Ctr 111"
+                    }
+                }
+            }
+        }
+    }
+}
