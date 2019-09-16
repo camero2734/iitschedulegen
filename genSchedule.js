@@ -3,12 +3,10 @@ async function loadJSON(path) {
     xhr.onreadystatechange = function() {
         if (xhr.readyState === XMLHttpRequest.DONE) {
             if (xhr.status === 200) {
-                if (success) return JSON.parse(xhr.responseText);
+                return JSON.parse(xhr.responseText);
             } else {
-                if (error) {
-                    console.log(error);
-                    return {};
-                }
+                console.log("error fetching json");
+                return {};
             }
         }
     };
