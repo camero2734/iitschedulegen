@@ -10,6 +10,43 @@
     white-space: nowrap;
 }
 
+#calendar {
+    /* float: right; */
+    width: 50%;
+}
+
+#filters {
+    width: 50%;
+    height: 50%;
+}
+
+#slider {
+    width: 60%;
+}
+
+#classlabel {
+    width: 15%;
+}
+
+#classtime {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: stretch;
+	align-content: space-between;
+}
+
+.content {
+    height: 100%;
+    display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: stretch;
+	align-content: space-between;
+}
+
 .node {
     border-radius: 1000px;
     text-align: center;
@@ -63,4 +100,27 @@
 
 .listItem:hover {
     cursor: pointer;
+}
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: grey;
+    border-radius: 10px;
+}
+
+.font {
+    -webkit-text-stroke: 0.8px #000000;
+    -webkit-text-fill-color: #FFFFFF
 }

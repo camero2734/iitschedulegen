@@ -1,9 +1,37 @@
 <head>
     <link rel="stylesheet" href="css/interface.css">
+    <script src="js/schedule.js"></script>
     <script src="js/jquery.js"></script>
+
+    <!-- Slider -->
+    <script src="nouislider/nouislider.js"></script>
+    <link href='nouislider/nouislider.css' rel='stylesheet' />
+
+    <!-- calendar -->
+    <link href='fullcalendar/core/main.css' rel='stylesheet' />
+    <link href='fullcalendar/daygrid/main.css' rel='stylesheet' />
+    <link href='fullcalendar/timegrid/main.css' rel='stylesheet' />
+    <script src='fullcalendar/core/main.js'></script>
+    <script src='fullcalendar/daygrid/main.js'></script>
+    <script src='fullcalendar/timegrid/main.js'></script>
+
     <script src="js/interface.js"></script>
 </head>
 
 <body>
-  <div id="classPicker"></div>
+  <div class="content">
+    <div id="classPicker"></div>
+    <div id="filters">
+      <br><br>
+      <div id="classtime">
+          <p id="classlabel">Class Times:</p>
+          <div id="slider"></div>
+      </div>
+      
+    </div>
+    <div id="calendar"></div>
+    
+  </div>
+  
+  
 </body>
