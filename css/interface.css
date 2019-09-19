@@ -121,6 +121,11 @@
 }
 
 .font {
-    -webkit-text-stroke: 0.8px #000000;
-    -webkit-text-fill-color: #FFFFFF
+    -webkit-text-stroke: 0.5px #000000;
+    -webkit-text-fill-color: #FFFFFF;
+    font-size: 80%;
+}
+
+.font:hover {
+    cursor: help;
 }

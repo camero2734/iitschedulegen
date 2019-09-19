@@ -5,10 +5,11 @@ schedules = [new Schedule()];
 
 let currentSchedule = 0;
 
+let timeSlider;
 
 colors = {};
 function* gC() {
-    yield* ["red", "orange", "#c9c170", "green", "cyan", "blue", "purple"];
+    yield* ["red", "orange", "yellow", "green", "cyan", "blue", "purple"];
 }
 let genColor = gC();
 
@@ -23,7 +24,7 @@ let genColor = gC();
             let parts = durationFromMinutes(value).split(":");
             let hh = Number(parts[0]);
             let mm = parts[1].startsWith("0") ? "00" : "30"; //Fixes some weird 4:29 bug
-            return hh <= 12 ? (hh === 12 ? `12:${mm}PM` : hh + `:${mm}AM`) : (hh - 12) + `:${mm}PM`; 
+            return hh <= 12 ? (hh === 12 ? `12:${mm}PM` : hh + `:${mm}AM`) : (hh === 24 ? `12:${mm}AM` : (hh - 12) + `:${mm}PM`); 
         },
         from: value => {
             let parts = value.split(":");
@@ -31,7 +32,7 @@ let genColor = gC();
         }
     };
 
-    let a = noUiSlider.create(slider, {
+    timeSlider = noUiSlider.create(slider, {
         start: [360, 1440],
         margin: 240,
         tooltips: [formatter, formatter],
@@ -41,9 +42,6 @@ let genColor = gC();
             "min": 360,
             "max": 1440
         }
-    });
-    a.on("update", function (values, handle) {
-        console.log(values);
     });
     generateSchedules();
     updateInterface();
@@ -188,6 +186,36 @@ function drawSchedule() {
                     generateSchedules();
                 }
             }
+        },
+        eventClick: function(info) {
+            console.log(info.event);
+            let classObj = info.event.extendedProps.classObj;
+            let days = ["S", "M", "T", "W", "R", "F", "A"];
+            console.log(days[new Date(info.event.start).getDay()]);
+            let location = classObj.classes[days[new Date(info.event.start).getDay()]].location;
+
+            $.alert({
+                boxWidth: "30%",
+                useBootstrap: false,
+                title: classObj.course + " " + classObj.type,
+                escapeKey: "Close",
+                backgroundDismiss: true,
+                content: `CRN: ${classObj.crn}<br>Location: ${location}<br>Instructor${classObj.instructors.length === 1 ? "" : "s"}: ${classObj.instructors.join(", ")}`,
+                buttons: {
+                    Info: {
+                        text: "More Info",
+                        btnClass: "btn-dark",
+                        action: () => {
+                            window.open(classObj.link);
+                            return false;
+                        }
+                    },
+                    Close: {
+                        btnClass: "btn-red",
+                        action: () => {}
+                    }
+                }
+            });
         }
     });
     calendar.render();
@@ -202,13 +230,14 @@ function createEvents(schedule) {
         if (!colors[course.course]) colors[course.course] = genColor.next().value;
         for (let day in course.classes) {
             let event = { 
-                title: `${course.course}\n${course.crn}`, 
+                title: `${course.course} ${course.type} (${course.crn})`, 
                 startTime: durationFromMinutes(course.classes[day].start),
                 endTime: durationFromMinutes(course.classes[day].end),
                 daysOfWeek: [days.indexOf(day)],
                 color: colors[course.course],
                 borderColor: "black",
-                classNames: ["font"]
+                classNames: ["font"],
+                classObj: course
             };
             events.push(event);
         }
@@ -217,6 +246,7 @@ function createEvents(schedule) {
 }
 
 function generateSchedules() {
+    currentSchedule = 0;
     let classes = inputtedClasses.map(ic => ic[0]).filter(ic => ic && loadedClasses.hasOwnProperty(ic));
     schedules = [new Schedule()];
     for (let c of classes) {
@@ -240,5 +270,6 @@ function durationFromMinutes(minutes) {
 }
 
 function applyFilters(schedules) {
-    return schedules;
+    let values = timeSlider.get();
+    return schedules.filter(s => s.startTime >= values[0] && s.endTime <= values[1]);
 }
