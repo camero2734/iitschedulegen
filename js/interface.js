@@ -280,10 +280,11 @@ function applyFilters(schedules) {
 }
 
 function attachClickHandlers() {
-    Array.prototype.slice.call(document.getElementsByClassName("daybox")).forEach(d => {
+    Array.prototype.slice.call(document.getElementsByClassName("day")).forEach(d => {
         d.onclick = () => {
-            if (d.getAttribute("value") === "checked") d.setAttribute("value", "unchecked");
-            else d.setAttribute("value", "checked");
+            let daybox = d.querySelector(".daybox");
+            if (daybox.getAttribute("value") === "checked") daybox.setAttribute("value", "unchecked");
+            else daybox.setAttribute("value", "checked");
         };
     });
 }
