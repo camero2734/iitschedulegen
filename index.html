@@ -19,23 +19,47 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.2/jquery-confirm.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.2/jquery-confirm.min.js"></script>
 
+
     <script src="js/interface.js"></script>
 </head>
 
 <body>
-  <div class="content">
-    <div id="classPicker"></div>
-    <div id="filters">
-      <br><br>
-      <div id="classtime">
-          <p id="classlabel">Class Times:</p>
-          <div id="slider"></div>
-      </div>
-      
+    <div class="content">
+        <div id="classPicker"></div>
+        <div id="filters">
+            <br><br>
+            <div id="classtime">
+                <label id="classlabel">Class Times:</label>
+                <div id="slider"></div>
+            </div><br>
+            <div id="days">
+                <label id="daylabel">Days:</label>
+                <div class="day">
+                    <div id="M" class="daybox" value="checked"></div><br>
+                    <label for="monday" class="dayp">Monday</label>
+                </div>
+                <div class="day">
+                    <div id="T" class="daybox" value="checked"></div><br>
+                    <label for="tuesday" class="dayp">Tuesday</label>
+                </div>
+                <div class="day">
+                    <div id="W" class="daybox" value="checked"></div><br>
+                    <label for="wednesday" class="dayp">Wednesday</label>
+                </div>
+                <div class="day">
+                    <div id="R" class="daybox" value="checked"></div><br>
+                    <label for="thursday" class="dayp">Thursday</label>
+                </div>
+                <div class="day">
+                    <div id="F" class="daybox" value="checked"></div><br>
+                    <label for="friday" class="dayp">Friday</label>
+                </div>
+            </div>
+            <p>tre</p>
+        </div>
+        <div id="calendar"></div>
+
     </div>
-    <div id="calendar"></div>
-    
-  </div>
-  
-  
+
+
 </body>

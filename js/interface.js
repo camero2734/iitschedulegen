@@ -43,6 +43,7 @@ let genColor = gC();
             "max": 1440
         }
     });
+    attachClickHandlers();
     generateSchedules();
     updateInterface();
 })();
@@ -163,7 +164,7 @@ function drawSchedule() {
             center: "title",
             right: "prev, next"
         },
-        titleFormat: `Schedule #${currentSchedule + 1}`,
+        titleFormat: schedules.length === 0 ? "No schedules available" : `Schedule #${currentSchedule + 1}`,
         events: createEvents(schedules[currentSchedule]),
         customButtons: {
             next: {
@@ -271,5 +272,18 @@ function durationFromMinutes(minutes) {
 
 function applyFilters(schedules) {
     let values = timeSlider.get();
-    return schedules.filter(s => s.startTime >= values[0] && s.endTime <= values[1]);
+    let validDays = Array.prototype.slice.call(document.getElementsByClassName("daybox")).filter(elem => elem.getAttribute("value") === "checked").map(elem => elem.id);
+    console.log(validDays, /VALIDDAYS/);
+    return schedules
+        .filter(s => s.startTime >= values[0] && s.endTime <= values[1]) //Start/end time
+        .filter(s => !s.classes.some(course => Object.keys(course.classes).some(day => validDays.indexOf(day) === -1))); //Days
+}
+
+function attachClickHandlers() {
+    Array.prototype.slice.call(document.getElementsByClassName("daybox")).forEach(d => {
+        d.onclick = () => {
+            if (d.getAttribute("value") === "checked") d.setAttribute("value", "unchecked");
+            else d.setAttribute("value", "checked");
+        };
+    });
 }
