@@ -184,7 +184,9 @@ function drawSchedule() {
             generate: {
                 text: "Generate Schedules",
                 click: function() {
+                    let tStart = window.performance.now();
                     generateSchedules();
+                    alert((window.performance.now() - tStart) / 1000 + " seconds");
                 }
             }
         },
@@ -246,8 +248,8 @@ function createEvents(schedule) {
     return events;
 }
 
-function generateSchedules() {
-    currentSchedule = 0;
+function generateSchedules(startSchedule = 0) {
+    currentSchedule = startSchedule;
     let classes = inputtedClasses.map(ic => ic[0]).filter(ic => ic && loadedClasses.hasOwnProperty(ic));
     schedules = [new Schedule()];
     for (let c of classes) {
@@ -257,6 +259,7 @@ function generateSchedules() {
             allNew = allNew.concat(ns);
         }
         schedules = allNew;
+        if (schedules.length === 0) break;
     }
     schedules = applyFilters(schedules);
     console.log(schedules.length + " schedules");
