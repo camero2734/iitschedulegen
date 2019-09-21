@@ -201,10 +201,7 @@ function drawSchedule() {
             generate: {
                 text: "Generate Schedules",
                 click: function() {
-                    let tStart = window.performance.now();
-                    this.textContent = "NO";
                     generateSchedules();
-                    alert((window.performance.now() - tStart) / 1000 + " seconds");
                 }
             }
         },
