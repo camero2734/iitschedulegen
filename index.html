@@ -19,6 +19,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.2/jquery-confirm.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.2/jquery-confirm.min.js"></script>
 
+    <!-- Sortable -->
+    <script src="bower_components/Sortable/Sortable.min.js"></script>
 
     <script src="js/interface.js"></script>
 </head>
@@ -55,7 +57,19 @@
                     <label for="friday" class="dayp noselect">Friday</label>
                 </div>
             </div>
-            <p>tre</p>
+            <div id="sort">
+                <label for="sort">Sort by: </label>
+                <ol id="actual-sort" class="sortable">
+
+                </ol>
+                <ol id="available-sort" class="sortable">
+                    <li id="late" class="sort-element noselect">Latest Start Time</li>
+                    <li id="early" class="sort-element noselect">Earliest End Time</li>
+                    <li id="compact" class="sort-element noselect">Most Compact Times</li>
+                    <li id="daycount" class="sort-element noselect">Number of Days</li>
+                </ol>
+            </div>
+            
         </div>
         <div id="calendar"></div>
 

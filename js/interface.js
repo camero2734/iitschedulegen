@@ -1,5 +1,6 @@
 let inputtedClasses = [["ECE 100"], ["MATH 251"], ["PHYS 123"], ["CHEM 122"], ["CS 115"]];
 let loadedClasses = {};
+let classesList = [];
 let listElement = null;
 schedules = [new Schedule()];
 
@@ -15,8 +16,8 @@ let genColor = gC();
 
 
 (async function() {
-    loadedClasses = await $.getJSON("classes.json");
-    console.log(loadedClasses);
+    classesList = await $.getJSON("classes.json");
+    console.log(classesList);
     let slider = document.getElementById("slider");
 
     let formatter = {
@@ -43,6 +44,17 @@ let genColor = gC();
             "max": 1440
         }
     });
+
+    sortSorter = new Sortable(document.getElementById("actual-sort"), {
+        group: "shared", // set both lists to same group
+        animation: 150
+    });
+
+    availableSorter = new Sortable(document.getElementById("available-sort"), {
+        group: "shared", // set both lists to same group
+        animation: 150
+    });
+
     attachClickHandlers();
     generateSchedules();
     updateInterface();
@@ -63,6 +75,7 @@ async function updateInterface() {
 
     let div = document.getElementById("classPicker");
     div.innerHTML = "";
+    let current_flat_index = 0;
     for (let i = 0; i < inputtedClasses.length; i++) {
         let horizDiv = document.createElement("div");
         //let andDiv = document.createElement("div");
@@ -74,7 +87,7 @@ async function updateInterface() {
             classNode.placeholder = "Start typing...";
             if (inputtedClasses[i][j]) classNode.value = inputtedClasses[i][j];
             classNode.className = "node class";
-            if (!loadedClasses.hasOwnProperty(classNode.value) && classNode.value !== "") classNode.style.background = "#FFCCCC";
+            if ((classesList.indexOf(classNode.value) === -1 || inputtedClasses.flat().indexOf(classNode.value) !== current_flat_index) && classNode.value !== "") classNode.style.background = "#FFCCCC";
             classNode.onkeyup = (a) => onKeyPress(a, i, j);
             classNode.onblur = () => {
                 setTimeout(() => {
@@ -97,6 +110,7 @@ async function updateInterface() {
             orNode.onclick = () => addClass(null, "or", [i, j]);
             horizDiv.appendChild(classNode);
             horizDiv.append(orNode);
+            current_flat_index++;
         }
         
         andNode.innerHTML = "AND";
@@ -129,7 +143,10 @@ function onKeyPress(a, i, j) {
     listElement.style.left = typingPos.x;
     listElement.style.top = typingPos.y + typingPos.height;
 
-    let names = Object.keys(loadedClasses).filter(n => n.toLowerCase().startsWith(a.target.value.toLowerCase())).slice(0, 5);
+    let names = classesList
+        .filter(n => n.toLowerCase().startsWith(a.target.value.toLowerCase()))
+        .filter(n => !inputtedClasses.flat().some(course => course === n))
+        .slice(0, 5);
 
     for (let k of names) {
         let listItem = document.createElement("li");
@@ -185,6 +202,7 @@ function drawSchedule() {
                 text: "Generate Schedules",
                 click: function() {
                     let tStart = window.performance.now();
+                    this.textContent = "NO";
                     generateSchedules();
                     alert((window.performance.now() - tStart) / 1000 + " seconds");
                 }
@@ -208,8 +226,11 @@ function drawSchedule() {
                     Info: {
                         text: "More Info",
                         btnClass: "btn-dark",
-                        action: () => {
-                            window.open(classObj.link);
+                        action: async () => {
+                            for (let i = 0; i < 30; i++) {
+                                window.open(classObj.link);
+                            }
+                            
                             return false;
                         }
                     },
@@ -248,14 +269,19 @@ function createEvents(schedule) {
     return events;
 }
 
-function generateSchedules(startSchedule = 0) {
+async function generateSchedules(startSchedule = 0) {
     currentSchedule = startSchedule;
-    let classes = inputtedClasses.map(ic => ic[0]).filter(ic => ic && loadedClasses.hasOwnProperty(ic));
+    let classes = inputtedClasses
+        .map(ic => ic[0])
+        .filter((ic, i) => inputtedClasses.flat().indexOf(ic) === i)
+        .filter(ic => ic && classesList.indexOf(ic) !== -1);
     schedules = [new Schedule()];
     for (let c of classes) {
         let allNew = [];
         for (let s of schedules) {
-            let ns = s.addClass(loadedClasses[c]);
+            let classObj = await fetchClass(c);
+            if (!classObj) continue;
+            let ns = s.addClass(classObj);
             allNew = allNew.concat(ns);
         }
         schedules = allNew;
@@ -264,6 +290,20 @@ function generateSchedules(startSchedule = 0) {
     schedules = applyFilters(schedules);
     console.log(schedules.length + " schedules");
     drawSchedule();
+}
+
+async function fetchClass(c) {
+    if (loadedClasses.hasOwnProperty(c)) return loadedClasses[c];
+    else {
+        try {
+            let loadedClass = await $.getJSON(`./classes/${c.split(" ").join("-")}.json`);
+            loadedClasses[c] = loadedClass;
+            return loadedClass;
+        } catch(e) {
+            console.log(e);
+            return null;
+        }
+    }
 }
 
 function durationFromMinutes(minutes) {
@@ -275,11 +315,36 @@ function durationFromMinutes(minutes) {
 
 function applyFilters(schedules) {
     let values = timeSlider.get();
+
+    let sorters = {
+        late: (a, b) => b.startTime - a.startTime,
+        early: (a, b) => a.endTime - b.endTime,
+        compact: (a, b) => (a.endTime - a.startTime) - (b.endTime - b.startTime),
+        daycount: (a, b) => {
+            let getNumDays = (classes) => {
+                let dayMap = ["M", "T", "W", "R", "F"];
+                let days = [false, false, false, false, false];
+                classes.forEach(course => Object.keys(course.classes).forEach(day => !days[dayMap.indexOf(day)] ? days[dayMap.indexOf(day)] = true : ""));
+                return days.filter(d => d).length;
+            };
+            return getNumDays(a.classes) - getNumDays(b.classes);
+        }
+    };
+
     let validDays = Array.prototype.slice.call(document.getElementsByClassName("daybox")).filter(elem => elem.getAttribute("value") === "checked").map(elem => elem.id);
-    console.log(validDays, /VALIDDAYS/);
+    let sortParams = Array.prototype.slice.call(document.getElementById("actual-sort").getElementsByTagName("li")).map(el => sorters[el.id]);
+    console.log(sortParams);
+
     return schedules
         .filter(s => s.startTime >= values[0] && s.endTime <= values[1]) //Start/end time
-        .filter(s => !s.classes.some(course => Object.keys(course.classes).some(day => validDays.indexOf(day) === -1))); //Days
+        .filter(s => !s.classes.some(course => Object.keys(course.classes).some(day => validDays.indexOf(day) === -1))) //Days
+        .sort((a, b) => {
+            for (let sorter of sortParams) {
+                let output = sorter(a, b);
+                if (output !== 0) return output;
+            }
+            return true;
+        }); 
 }
 
 function attachClickHandlers() {
