@@ -1,0 +1,23 @@
+.calendar {
+    font-weight: bolder;
+    font-family: Lato, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    height: 400px;
+    width: "100%"
+}
+
+.rbc-timeslot-group {
+    height: 60px;
+}
+
+.test {
+    background: red !important;
+}
+
+.checkbox>label {
+    padding-left: 20px !important;
+    margin-right: 20px;
+}
+
+.ui.checkbox input:checked~.box:after, .ui.checkbox input:checked~label:after {
+    color: red !important;
+}
