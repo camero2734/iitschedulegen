@@ -1,4 +1,5 @@
 body {
+    background: #F3F3F3;
     margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
     -webkit-font-smoothing: antialiased;
@@ -23,4 +24,28 @@ code {
     cursor: pointer;
     /* opacity: 50%; */
     filter: grayscale(0.5);
+}
+
+@media screen and (max-width: 500px) {
+    .fc-center {
+        font-size: 8px;
+    }
+    .fc-button {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .ui.black.icon.button {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .fc-center {
+        font-size: 6px;
+    }
+    .fc-button {
+        font-size: 10px;
+    }
 }
