@@ -27,12 +27,12 @@ code {
 }
 
 .fc-time-grid .fc-slats td {
-    height: 20px;
+    height: 30px;
 }
 
 @media screen and (max-width: 800px) {
     .fc-time-grid .fc-slats td {
-        height: 30px;
+        height: 40px;
 
     }
     .fc-event {
