@@ -1,0 +1,55 @@
+{
+  "name": "actual-schedule",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://camero2734.github.io/iitschedulegen",
+  "dependencies": {
+    "@fullcalendar/core": "^4.3.1",
+    "@fullcalendar/daygrid": "^4.3.0",
+    "@fullcalendar/react": "^4.3.0",
+    "@fullcalendar/timegrid": "^4.3.0",
+    "@material-ui/core": "^4.4.3",
+    "@material-ui/icons": "^4.4.3",
+    "bootstrap": "^4.3.1",
+    "chroma-js": "^2.0.6",
+    "fuzzaldrin": "^2.1.0",
+    "gh-pages": "^2.1.1",
+    "jquery-confirm": "^3.3.4",
+    "moment": "^2.24.0",
+    "palettes": "0.0.3",
+    "react": "^16.9.0",
+    "react-autosuggest": "^9.4.3",
+    "react-big-calendar": "^0.23.0",
+    "react-bootstrap": "^1.0.0-beta.12",
+    "react-dom": "^16.9.0",
+    "react-from-dom": "^0.2.3",
+    "react-scripts": "3.1.2",
+    "react-select": "^3.0.5",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^0.88.1",
+    "typeface-roboto": "0.0.75"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
