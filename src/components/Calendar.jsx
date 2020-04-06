@@ -88,6 +88,7 @@ class Calendar extends Component {
                         center: "title",
                         right: "prev, next"
                     }}
+                    now={() => new Date("2 February 2025 12:30:00 PM")} // A random Sunday so the current day isn't highlighted
                     columnHeaderFormat={{ weekday: 'short' }}//{i => this.getDayOfWeek(i.date.marker)}
                     titleFormat={() => this.state.schedules.length === 0 ? "No Schedules" : "Schedule #" + (this.state.scheduleIndex + 1)}
                     customButtons={this.getCustomButtons()}
