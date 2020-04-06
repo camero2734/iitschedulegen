@@ -82,6 +82,8 @@ let Schedule = class Schedule {
                                 newSchedule.freetimes[day].splice(replaceTimeSlots[crn][day], 1, [originalTime[0], newTime[0]], [newTime[1], originalTime[1]]);
                             }
                         }
+
+                        lab.credits = 0; // All of the credits should be in the normal class
                         newSchedule.classes.push(lab);
                         labSchedules.push(newSchedule);
                     }
