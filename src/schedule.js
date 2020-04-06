@@ -53,6 +53,7 @@ let Schedule = class Schedule {
                 }
             }
         }
+        console.log(newSchedules.length, /NEWSCHEDULESLENGTH/)
         if (labs.length > 0) {
             let newerSchedules = newSchedules.map(ns => {
                 let labSchedules = [];

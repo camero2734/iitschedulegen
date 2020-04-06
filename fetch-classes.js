@@ -4,7 +4,10 @@ Fetches all classes and creates a JSON file
 
 */
 
-let fetch = require("node-fetch");
+const lecture_types = ["Lecture", "Lecture/Lab", "Studio", "Clinical", "Dummy Course", "Externship", "Independent Study/Research", "Internship", "Seminar", "Workshop"];
+const lab_types = ["Lab", "Recitation/Discussion"];
+
+const fetch = require("node-fetch");
 const fs = require("fs-extra");
 const jsdom = require("jsdom");
 const { JSDOM } = jsdom;
@@ -89,7 +92,7 @@ fetch("https://ssb.iit.edu/bnrprd/bwckschd.p_get_crse_unsec", {
                 levels: innerNodes[10 + nodeStart].textContent.trim(),
                 attributes: innerNodes[14 + nodeStart].textContent.trim(),
                 campus: innerNodes[18 + nodeStart].textContent.trim(),
-                type: innerNodes[20 + nodeStart].textContent.trim().split(" ")[0],
+                // type: innerNodes[20 + nodeStart].textContent.trim().split(" ")[0],
                 instructional_method: innerNodes[22 + nodeStart].textContent.trim(),
                 credits: parseInt(innerNodes[24 + nodeStart].textContent.trim().split(" ")[0]),
                 catalog: "https://ssb.iit.edu" + Array.prototype.slice.call(area.querySelectorAll("a")).find(a => a.textContent === "View Catalog Entry").href
@@ -116,7 +119,12 @@ fetch("https://ssb.iit.edu/bnrprd/bwckschd.p_get_crse_unsec", {
                     if (/[MTWRF]/.test(d)) classes[d] = { start, end, location: parts[3].textContent };
                 }
                 info.instructors = instructors;
-                info.type = parts[5].textContent;
+
+                // Fix for some labs being "attached" to the class times
+                if (!info.type) info.type = parts[5].textContent;
+                else if (!lab_types.some(l => l.toLowerCase() === parts[5].textContent.toLowerCase())) {
+                    info.type = parts[5].textContent;
+                }
                 info.dateRange = parts[4].textContent;
             }
             info.classes = classes;
