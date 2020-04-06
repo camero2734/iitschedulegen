@@ -15,7 +15,7 @@ function* gC() {
 let genColor = gC();
 
 
-(async function() {
+(async function () {
     classesList = await $.getJSON("classes.json");
     console.log(classesList);
     let slider = document.getElementById("slider");
@@ -25,7 +25,7 @@ let genColor = gC();
             let parts = durationFromMinutes(value).split(":");
             let hh = Number(parts[0]);
             let mm = parts[1].startsWith("0") ? "00" : "30"; //Fixes some weird 4:29 bug
-            return hh <= 12 ? (hh === 12 ? `12:${mm}PM` : hh + `:${mm}AM`) : (hh === 24 ? `12:${mm}AM` : (hh - 12) + `:${mm}PM`); 
+            return hh <= 12 ? (hh === 12 ? `12:${mm}PM` : hh + `:${mm}AM`) : (hh === 24 ? `12:${mm}AM` : (hh - 12) + `:${mm}PM`);
         },
         from: value => {
             let parts = value.split(":");
@@ -102,9 +102,9 @@ async function updateInterface() {
                         updateInterface();
                     }
                 }, 100);
-                
+
             };
-            
+
             orNode.innerHTML = "OR";
             orNode.className = "node or";
             orNode.onclick = () => addClass(null, "or", [i, j]);
@@ -112,7 +112,7 @@ async function updateInterface() {
             horizDiv.append(orNode);
             current_flat_index++;
         }
-        
+
         andNode.innerHTML = "AND";
         andNode.className = "node and";
         andNode.onmousedown = () => addClass(null, "and", [i, 0]);
@@ -168,7 +168,7 @@ function drawSchedule() {
     let calendarEl = document.getElementById("calendar");
     calendarEl.innerHTML = "";
     let calendar = new FullCalendar.Calendar(calendarEl, {
-        plugins: [ "timeGrid" ],
+        plugins: ["timeGrid"],
         defaultView: "timeGridWeek",
         minTime: "06:00:00",
         scrollTime: durationFromMinutes(schedules[0] && schedules[0].startTime !== 1440 ? schedules[0].startTime - 120 : 360),
@@ -186,26 +186,26 @@ function drawSchedule() {
         customButtons: {
             next: {
                 text: "Next",
-                click: function() {
+                click: function () {
                     currentSchedule = currentSchedule + 1 >= schedules.length ? 0 : currentSchedule + 1;
                     drawSchedule();
                 }
             },
             prev: {
                 text: "Prev",
-                click: function() {
+                click: function () {
                     currentSchedule = currentSchedule - 1 < 0 ? schedules.length - 1 : currentSchedule - 1;
                     drawSchedule();
                 }
             },
             generate: {
                 text: "Generate Schedules",
-                click: function() {
+                click: function () {
                     generateSchedules();
                 }
             }
         },
-        eventClick: function(info) {
+        eventClick: function (info) {
             console.log(info.event);
             let classObj = info.event.extendedProps.classObj;
             let days = ["S", "M", "T", "W", "R", "F", "A"];
@@ -227,13 +227,13 @@ function drawSchedule() {
                             for (let i = 0; i < 30; i++) {
                                 window.open(classObj.link);
                             }
-                            
+
                             return false;
                         }
                     },
                     Close: {
                         btnClass: "btn-red",
-                        action: () => {}
+                        action: () => { }
                     }
                 }
             });
@@ -250,8 +250,8 @@ function createEvents(schedule) {
     for (let course of schedule.classes) {
         if (!colors[course.course]) colors[course.course] = genColor.next().value;
         for (let day in course.classes) {
-            let event = { 
-                title: `${course.course} ${course.type} (${course.crn})`, 
+            let event = {
+                title: `${course.course} ${course.type} (${course.crn})`,
                 startTime: durationFromMinutes(course.classes[day].start),
                 endTime: durationFromMinutes(course.classes[day].end),
                 daysOfWeek: [days.indexOf(day)],
@@ -296,7 +296,7 @@ async function fetchClass(c) {
             let loadedClass = await $.getJSON(`./classes/${c.split(" ").join("-")}.json`);
             loadedClasses[c] = loadedClass;
             return loadedClass;
-        } catch(e) {
+        } catch (e) {
             console.log(e);
             return null;
         }
@@ -341,7 +341,7 @@ function applyFilters(schedules) {
                 if (output !== 0) return output;
             }
             return true;
-        }); 
+        });
 }
 
 function attachClickHandlers() {
