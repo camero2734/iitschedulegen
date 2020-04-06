@@ -26,26 +26,43 @@ code {
     filter: grayscale(0.5);
 }
 
-@media screen and (max-width: 500px) {
-    .fc-center {
-        font-size: 8px;
+.fc-time-grid .fc-slats td {
+    height: 20px;
+}
+
+@media screen and (max-width: 800px) {
+    .fc-time-grid .fc-slats td {
+        height: 30px;
+
     }
-    .fc-button {
-        font-size: 12px;
+    .fc-event {
+        font-size: 0.75em;
+    }
+    .ui.compact.segment {
+        width: 100% !important;
     }
 }
 
-@media screen and (max-width: 400px) {
-    .ui.black.icon.button {
-        display: none;
+@media screen and (max-width: 450px) {
+    .fc-center {
+        font-size: 0.85em;
+    }
+    .fc-button {
+        font-size: 0.85em;
+    }
+}
+
+@media screen and (max-width: 415px) {
+    .fc-event {
+        font-size: 0.6em;
     }
 }
 
 @media screen and (max-width: 380px) {
     .fc-center {
-        font-size: 6px;
+        font-size: 0.75em;
     }
     .fc-button {
-        font-size: 10px;
+        font-size: 0.75em;
     }
 }
