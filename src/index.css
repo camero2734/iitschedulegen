@@ -13,3 +13,14 @@ code {
     color: white;
     -webkit-font-smoothing: antialiased;
 }
+
+.fc-event {
+    font-weight: bold;
+    transition: 50ms ease;
+}
+
+.fc-event:hover {
+    cursor: pointer;
+    /* opacity: 50%; */
+    filter: grayscale(0.5);
+}
