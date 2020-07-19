@@ -160,16 +160,6 @@ class Calendar extends Component {
                     <Modal.Actions>
                         <Popup
                             inverted
-                            content={"Class capacity, seating, prerequisites, and requirements"}
-                            trigger={
-                                <Button color="purple" onClick={() => window.open(classObj.link)}>
-                                    <Icon name="info" /> Class Details
-                                </Button>
-                            }
-                        />
-
-                        <Popup
-                            inverted
                             content={"Search for professor on ratemyprofessors.com"}
                             trigger={
                                 <Button
@@ -177,6 +167,16 @@ class Calendar extends Component {
                                     onClick={() => window.open(`https://www.ratemyprofessors.com/search.jsp?query=${classObj.instructors[0].split(" ").pop()} Illinois Institute of Technology`)}
                                 >
                                     <Icon name="student" /> Search on Rate My Professors
+                                </Button>
+                            }
+                        />
+
+                        <Popup
+                            inverted
+                            content={"Class capacity, seating, prerequisites, and requirements"}
+                            trigger={
+                                <Button color="purple" onClick={() => window.open(classObj.link)}>
+                                    <Icon name="info" /> Class Details
                                 </Button>
                             }
                         />
