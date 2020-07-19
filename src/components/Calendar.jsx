@@ -173,7 +173,7 @@ class Calendar extends Component {
                             content={"Search for professor on ratemyprofessors.com"}
                             trigger={
                                 <Button color="green" onClick={() => window.open(`https://www.ratemyprofessors.com/search.jsp?query=${classObj.instructors[0]}`)}>
-                                    <Icon name="info" /> Class Details
+                                    <Icon name="student" /> Search on Rate My Professors
                                 </Button>
                             }
                         />
