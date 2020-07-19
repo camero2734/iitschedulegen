@@ -172,7 +172,10 @@ class Calendar extends Component {
                             inverted
                             content={"Search for professor on ratemyprofessors.com"}
                             trigger={
-                                <Button color="green" onClick={() => window.open(`https://www.ratemyprofessors.com/search.jsp?query=${classObj.instructors[0]}`)}>
+                                <Button
+                                    color="green"
+                                    onClick={() => window.open(`https://www.ratemyprofessors.com/search.jsp?query=${classObj.instructors[0].split(" ").pop()} Illinois Institute of Technology`)}
+                                >
                                     <Icon name="student" /> Search on Rate My Professors
                                 </Button>
                             }
