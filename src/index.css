@@ -33,7 +33,6 @@ code {
 @media screen and (max-width: 800px) {
     .fc-time-grid .fc-slats td {
         height: 40px;
-
     }
     .fc-event {
         font-size: 0.75em;

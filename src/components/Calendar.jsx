@@ -391,11 +391,11 @@ class Calendar extends Component {
                 text: "Next",
                 click: () => {
                     let scheduleIndex = this.state.scheduleIndex + 1 < this.state.schedules.length ? this.state.scheduleIndex + 1 : 0;
-                    this.scrollToDuration(
-                        this.durationFromMinutes(
-                            this.state.schedules[scheduleIndex] && this.state.schedules[scheduleIndex].startTime !== 1440 ? this.state.schedules[scheduleIndex].startTime - 120 : 360
-                        )
-                    );
+                    // this.scrollToDuration(
+                    //     this.durationFromMinutes(
+                    //         this.state.schedules[scheduleIndex] && this.state.schedules[scheduleIndex].startTime !== 1440 ? this.state.schedules[scheduleIndex].startTime - 120 : 360
+                    //     )
+                    // );
                     this.setState({ scheduleIndex });
                 },
             },
@@ -403,11 +403,11 @@ class Calendar extends Component {
                 text: "Prev",
                 click: () => {
                     let scheduleIndex = this.state.scheduleIndex - 1 < 0 ? this.state.schedules.length - 1 : this.state.scheduleIndex - 1;
-                    this.scrollToDuration(
-                        this.durationFromMinutes(
-                            this.state.schedules[scheduleIndex] && this.state.schedules[scheduleIndex].startTime !== 1440 ? this.state.schedules[scheduleIndex].startTime - 120 : 360
-                        )
-                    );
+                    // this.scrollToDuration(
+                    //     this.durationFromMinutes(
+                    //         this.state.schedules[scheduleIndex] && this.state.schedules[scheduleIndex].startTime !== 1440 ? this.state.schedules[scheduleIndex].startTime - 120 : 360
+                    //     )
+                    // );
                     this.setState({ scheduleIndex });
                 },
             },
